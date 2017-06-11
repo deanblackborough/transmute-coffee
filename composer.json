@@ -1,0 +1,20 @@
+{
+    "name": "deanblackborough/transmute-coffee",
+    "description": "Website for my packagist packages",
+    "homepage": "https://www.transmute-coffee.com",
+    "authors": [
+        {
+            "name": "Dean Blackborough",
+            "email": "dean@g3d-development.com"
+        }
+    ],
+    "require": {
+        "deanblackborough/php-quill-renderer": "^0.90",
+        "deanblackborough/random-grab-bag": "dev-master",
+        "deanblackborough/zf3-view-helpers": "^0.40"
+    },
+    "require-dev": {
+
+    },
+    "license": "MIT"
+}
