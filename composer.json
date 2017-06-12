@@ -10,7 +10,7 @@
     ],
     "require": {
         "deanblackborough/php-quill-renderer": "^0.90",
-        "deanblackborough/random-grab-bag": "dev-master",
+        "deanblackborough/random-grab-bag": "^0",
         "deanblackborough/zf3-view-helpers": "^0.40"
     },
     "require-dev": {

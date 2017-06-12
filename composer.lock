@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea092079796131b9519cbac229a043f7",
+    "content-hash": "80333055cd9494a2ddaff28fc9c53b69",
     "packages": [
         {
             "name": "deanblackborough/php-quill-renderer",
@@ -56,16 +56,16 @@
         },
         {
             "name": "deanblackborough/random-grab-bag",
-            "version": "dev-master",
+            "version": "v0.01",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/random-grab-bag.git",
-                "reference": "9fd218294cbd1618b1982bc73a8f00965c566c0a"
+                "reference": "b1d33d30a3e7ececffc3eb27b8362e3c88495802"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/random-grab-bag/zipball/9fd218294cbd1618b1982bc73a8f00965c566c0a",
-                "reference": "9fd218294cbd1618b1982bc73a8f00965c566c0a",
+                "url": "https://api.github.com/repos/deanblackborough/random-grab-bag/zipball/b1d33d30a3e7ececffc3eb27b8362e3c88495802",
+                "reference": "b1d33d30a3e7ececffc3eb27b8362e3c88495802",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "image-crop",
                 "image-resize"
             ],
-            "time": "2017-06-08 22:58:28"
+            "time": "2017-06-12T22:25:50+00:00"
         },
         {
             "name": "deanblackborough/zf3-view-helpers",
@@ -423,9 +423,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "deanblackborough/random-grab-bag": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
