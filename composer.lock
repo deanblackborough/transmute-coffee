@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "80333055cd9494a2ddaff28fc9c53b69",
+    "content-hash": "a5f44e18a06eab71378535191305663d",
     "packages": [
         {
             "name": "deanblackborough/php-quill-renderer",
@@ -56,16 +56,16 @@
         },
         {
             "name": "deanblackborough/random-grab-bag",
-            "version": "v0.01",
+            "version": "v0.06",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/random-grab-bag.git",
-                "reference": "b1d33d30a3e7ececffc3eb27b8362e3c88495802"
+                "reference": "85c5a28a4a495c6e82b4218e67656c4df4cb7c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/random-grab-bag/zipball/b1d33d30a3e7ececffc3eb27b8362e3c88495802",
-                "reference": "b1d33d30a3e7ececffc3eb27b8362e3c88495802",
+                "url": "https://api.github.com/repos/deanblackborough/random-grab-bag/zipball/85c5a28a4a495c6e82b4218e67656c4df4cb7c09",
+                "reference": "85c5a28a4a495c6e82b4218e67656c4df4cb7c09",
                 "shasum": ""
             },
             "require": {
@@ -93,28 +93,28 @@
                 "image-crop",
                 "image-resize"
             ],
-            "time": "2017-06-12T22:25:50+00:00"
+            "time": "2017-06-20T22:50:51+00:00"
         },
         {
             "name": "deanblackborough/zf3-view-helpers",
-            "version": "v0.40.3",
+            "version": "v0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/zf3-view-helpers.git",
-                "reference": "5ca8e6c294a02e6eafc403d476854646190618c3"
+                "reference": "67694e61337691344fa49c54b564da7b751f2614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/5ca8e6c294a02e6eafc403d476854646190618c3",
-                "reference": "5ca8e6c294a02e6eafc403d476854646190618c3",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/67694e61337691344fa49c54b564da7b751f2614",
+                "reference": "67694e61337691344fa49c54b564da7b751f2614",
                 "shasum": ""
             },
             "require": {
-                "deanblackborough/zf3-view-helpers-code-completion": "v1.02",
                 "php": "^7.1",
                 "zendframework/zend-view": "^2.9"
             },
             "require-dev": {
+                "deanblackborough/zf3-view-helpers-code-completion": "^1",
                 "phpunit/phpunit": "^6"
             },
             "type": "library",
@@ -141,24 +141,27 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2017-05-30T20:31:06+00:00"
+            "time": "2017-07-26T16:35:31+00:00"
         },
         {
             "name": "deanblackborough/zf3-view-helpers-code-completion",
-            "version": "v1.02",
+            "version": "v1.03",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/zf3-view-helpers-code-completion.git",
-                "reference": "ac3008d7f5b1cf56b8bdf9a30a18deee5a99654e"
+                "reference": "b9c043e7582db12c1da1c212968f6aa3a2aa9d31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers-code-completion/zipball/ac3008d7f5b1cf56b8bdf9a30a18deee5a99654e",
-                "reference": "ac3008d7f5b1cf56b8bdf9a30a18deee5a99654e",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers-code-completion/zipball/b9c043e7582db12c1da1c212968f6aa3a2aa9d31",
+                "reference": "b9c043e7582db12c1da1c212968f6aa3a2aa9d31",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "deanblackborough/zf3-view-helpers": "0.*",
                 "zendframework/zend-view": "^2.9"
             },
             "type": "library",
@@ -187,20 +190,20 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2017-05-30T20:16:25+00:00"
+            "time": "2017-07-26T16:38:21+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "c3bce7b7d47c54040b9ae51bc55491c72513b75d"
+                "reference": "9d72db10ceb6e42fb92350c0cb54460da61bd79c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/c3bce7b7d47c54040b9ae51bc55491c72513b75d",
-                "reference": "c3bce7b7d47c54040b9ae51bc55491c72513b75d",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/9d72db10ceb6e42fb92350c0cb54460da61bd79c",
+                "reference": "9d72db10ceb6e42fb92350c0cb54460da61bd79c",
                 "shasum": ""
             },
             "require": {
@@ -209,7 +212,7 @@
             "require-dev": {
                 "athletic/athletic": "^0.1",
                 "container-interop/container-interop": "^1.1.0",
-                "phpunit/phpunit": "^5.6",
+                "phpunit/phpunit": "^6.0.7 || ^5.7.14",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
             },
@@ -220,8 +223,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev",
-                    "dev-develop": "3.2-dev"
+                    "dev-master": "3.2-dev",
+                    "dev-develop": "3.3-dev"
                 }
             },
             "autoload": {
@@ -241,7 +244,7 @@
                 "events",
                 "zf2"
             ],
-            "time": "2016-12-19T21:47:12+00:00"
+            "time": "2017-07-11T19:17:22+00:00"
         },
         {
             "name": "zendframework/zend-loader",
