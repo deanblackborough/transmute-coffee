@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5f44e18a06eab71378535191305663d",
+    "content-hash": "5b1a322583a627a72e4c5de6e6b5e1ba",
     "packages": [
         {
             "name": "deanblackborough/php-quill-renderer",
@@ -97,24 +97,24 @@
         },
         {
             "name": "deanblackborough/zf3-view-helpers",
-            "version": "v0.50",
+            "version": "v0.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/zf3-view-helpers.git",
-                "reference": "67694e61337691344fa49c54b564da7b751f2614"
+                "reference": "94a73835cdd296a1df27fe0c9b6dc0a38d32d98d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/67694e61337691344fa49c54b564da7b751f2614",
-                "reference": "67694e61337691344fa49c54b564da7b751f2614",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/94a73835cdd296a1df27fe0c9b6dc0a38d32d98d",
+                "reference": "94a73835cdd296a1df27fe0c9b6dc0a38d32d98d",
                 "shasum": ""
             },
             "require": {
+                "deanblackborough/zf3-view-helpers-code-completion": "^1",
                 "php": "^7.1",
                 "zendframework/zend-view": "^2.9"
             },
             "require-dev": {
-                "deanblackborough/zf3-view-helpers-code-completion": "^1",
                 "phpunit/phpunit": "^6"
             },
             "type": "library",
@@ -141,7 +141,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2017-07-26T16:35:31+00:00"
+            "time": "2017-08-14T14:48:59+00:00"
         },
         {
             "name": "deanblackborough/zf3-view-helpers-code-completion",
