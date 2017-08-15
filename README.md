@@ -1,2 +1,4 @@
-# transmute-coffee
-The transmute coffee website, details on each of my PHP packages
+# Transmute Coffee
+
+The transmute coffee website, this site gives an overview of each of my 
+Open Source packages.
