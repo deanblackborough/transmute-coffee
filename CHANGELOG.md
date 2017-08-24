@@ -2,6 +2,10 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.02.0 - New release -2017-08-28
+
+* New release for Zend view helpers (v0.61).
+
 ## v1.01.0  - New releases - 2017-08-23
 
 * New releases for Zend view helpers (v0.60) and Zend view helpers code completion (v1.04.1).
