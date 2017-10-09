@@ -2,15 +2,20 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.11.0 - New release - 2017-10-09
+
+* New release, Zend view helpers, v0.63.0.
+* Added Dlayer view helpers project.
+
 ## v1.10.0 - New release - 2017-10-04
 
-* New release, Quill PHP renderer, v2.02.1
-* New release, Zend view helpers, v0.62.1
-* New release, Zend view helpers code completion, v1.04.1
+* New release, Quill PHP renderer, v2.02.1.
+* New release, Zend view helpers, v0.62.1.
+* New release, Zend view helpers code completion, v1.04.1.
 
 ## v1.09.0 - New release - 2017-09-18
 
-* Updated Navbar, adding missing project
+* Updated Navbar, adding missing project.
 * New release, Quill PHP renderer v2.02.0.
 
 ## v1.08.0 - New release - 2017-09-17
