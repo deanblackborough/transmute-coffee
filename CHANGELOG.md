@@ -2,6 +2,10 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.13.0 - New release - 2017-11-29
+
+* New release, Bootstrap 4 helpers, v0.02.
+
 ## v1.12.0 - New release - 2017-10-11
 
 * New release, Zend view helpers, v0.62.1.
