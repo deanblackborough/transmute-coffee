@@ -9,10 +9,11 @@
         }
     ],
     "require": {
-        "deanblackborough/php-quill-renderer": "^0",
+        "deanblackborough/php-quill-renderer": "^2",
         "deanblackborough/random-grab-bag": "^0",
-        "deanblackborough/zf3-view-helpers": "^0",
-        "deanblackborough/zf3-view-helpers-code-completion": "^1"
+        "deanblackborough/zf3-view-helpers": "^1",
+        "deanblackborough/zf3-view-helpers-code-completion": "^1",
+        "deanblackborough/bootstrap-4-helpers": "^0"
     },
     "require-dev": {
 

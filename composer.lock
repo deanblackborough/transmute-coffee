@@ -4,24 +4,69 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b1a322583a627a72e4c5de6e6b5e1ba",
+    "content-hash": "7d08b9b467d787c3336d7a2331e38bf2",
     "packages": [
         {
-            "name": "deanblackborough/php-quill-renderer",
-            "version": "v0.90.0",
+            "name": "deanblackborough/bootstrap-4-helpers",
+            "version": "v0.03",
             "source": {
                 "type": "git",
-                "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "226548fc298cf75087831316080c1e171d84d4ae"
+                "url": "https://github.com/deanblackborough/bootstrap-4-helpers.git",
+                "reference": "cbfbfbb0625344e2be68c7003afcf2165025084b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/226548fc298cf75087831316080c1e171d84d4ae",
-                "reference": "226548fc298cf75087831316080c1e171d84d4ae",
+                "url": "https://api.github.com/repos/deanblackborough/bootstrap-4-helpers/zipball/cbfbfbb0625344e2be68c7003afcf2165025084b",
+                "reference": "cbfbfbb0625344e2be68c7003afcf2165025084b",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0"
+                "deanblackborough/zf3-view-helpers": "^1",
+                "php": "^7.1",
+                "zendframework/zend-view": "^2.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DBlackborough\\Bootstrap4Helpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dean Blackborough",
+                    "email": "dean@g3d-development.com"
+                }
+            ],
+            "description": "Standalone Bootstrap 4 view helpers to use outside of Zend Framework apps",
+            "homepage": "https://github.com/deanblackborough/bootstrap-4-helpers",
+            "keywords": [
+                "bootstrap",
+                "bootstrap-4",
+                "component",
+                "helper"
+            ],
+            "time": "2017-12-03T01:54:02+00:00"
+        },
+        {
+            "name": "deanblackborough/php-quill-renderer",
+            "version": "v2.02.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deanblackborough/php-quill-renderer.git",
+                "reference": "0b8448a128619244ca35e6b14afdfd036cd4529c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/0b8448a128619244ca35e6b14afdfd036cd4529c",
+                "reference": "0b8448a128619244ca35e6b14afdfd036cd4529c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6"
@@ -52,7 +97,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2017-06-06T21:24:00+00:00"
+            "time": "2017-10-01T18:10:52+00:00"
         },
         {
             "name": "deanblackborough/random-grab-bag",
@@ -97,16 +142,16 @@
         },
         {
             "name": "deanblackborough/zf3-view-helpers",
-            "version": "v0.51",
+            "version": "v1.01.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/zf3-view-helpers.git",
-                "reference": "94a73835cdd296a1df27fe0c9b6dc0a38d32d98d"
+                "reference": "06d58e552e2564df553f2ccee356b08c6d21de1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/94a73835cdd296a1df27fe0c9b6dc0a38d32d98d",
-                "reference": "94a73835cdd296a1df27fe0c9b6dc0a38d32d98d",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/06d58e552e2564df553f2ccee356b08c6d21de1e",
+                "reference": "06d58e552e2564df553f2ccee356b08c6d21de1e",
                 "shasum": ""
             },
             "require": {
@@ -141,27 +186,27 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2017-08-14T14:48:59+00:00"
+            "time": "2017-12-02T01:34:06+00:00"
         },
         {
             "name": "deanblackborough/zf3-view-helpers-code-completion",
-            "version": "v1.03",
+            "version": "v1.06.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/zf3-view-helpers-code-completion.git",
-                "reference": "b9c043e7582db12c1da1c212968f6aa3a2aa9d31"
+                "reference": "9c16e6d03538f6a5a1d6d0a16d1bb6031f77777b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers-code-completion/zipball/b9c043e7582db12c1da1c212968f6aa3a2aa9d31",
-                "reference": "b9c043e7582db12c1da1c212968f6aa3a2aa9d31",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers-code-completion/zipball/9c16e6d03538f6a5a1d6d0a16d1bb6031f77777b",
+                "reference": "9c16e6d03538f6a5a1d6d0a16d1bb6031f77777b",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "deanblackborough/zf3-view-helpers": "0.*",
+                "deanblackborough/zf3-view-helpers": "^1",
                 "zendframework/zend-view": "^2.9"
             },
             "type": "library",
@@ -190,7 +235,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2017-07-26T16:38:21+00:00"
+            "time": "2017-12-03T01:38:12+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
