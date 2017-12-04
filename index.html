@@ -5,7 +5,7 @@
         <title>Transmute Coffee</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="PHP package over for Dean Blackborough">
+        <meta name="description" content="Open Source PHP packages by Dean Blackborough">
         <meta name="author" content="Dean Blackborough">
         <meta name="application-name" content="Transmute-coffee.com"/>
         <meta name="msapplication-TileColor" content="#FFFFFF"/>
@@ -27,19 +27,13 @@
                         <a class="nav-link" href="https://github.com/deanblackborough/php-quill-renderer">PHP Quill Renderer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/deanblackborough/random-grab-bag">Random Grab Bag</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="https://github.com/deanblackborough/zf3-view-helpers">ZF3 View Helpers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/deanblackborough/zf3-view-helpers-code-completion">ZF3 View Helpers Code Completion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://www.dlayer.com">Dlayer</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="http://www.deanblackborough.com">Dean Blackborough.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.gsd-development.com">G3D Development Limited</a>
                     </li>
                 </ul>
             </div>
@@ -62,18 +56,35 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="card-deck">
+                    <h1>Utility projects</h1>
+
+                    <div class="card-deck" style="margin-top:2rem;">
                         <div class="card w-50">
                             <div class="card-body">
                                 <h4 class="card-title">PHP Quill Renderer</h4>
                                 <p class="card-text"><small class="text-muted">Latest release: v2.02.1 - Release date: 1st October 2017</small></p>
-                                <p class="card-text">Render Quill insert deltas to HTML.</p>
+                                <p class="card-text">Quill deltas renderer, converts deltas to HTML, the Quill attributes
+                                    supported are listed in the README. I'm working on support for the remaining attributes
+                                    and additional parsers (markdown etc.)</p>
                                 <a href="https://github.com/deanblackborough/php-quill-renderer" class="btn btn-primary">Find on GitHub</a>
                                 <a href="https://github.com/deanblackborough/php-quill-renderer/blob/master/README.md" class="btn btn-secondary">Overview</a>
                                 <a href="https://github.com/deanblackborough/php-quill-renderer/blob/master/CHANGELOG.md" class="btn btn-secondary">Changelog</a>
                             </div>
                         </div>
 
+                        <div class="card w-50">
+                            <div class="card-body">
+                                <h4 class="card-title">Random Grab Bag</h4>
+                                <p class="card-text"><small class="text-muted">Latest release: v0.06 - Release date: 20th June 2017</small></p>
+                                <p class="card-text">A bunch of utility classes that don't currently deserve their own package.</p>
+                                <a href="https://github.com/deanblackborough/random-grab-bag" class="btn btn-primary">Find on GitHub</a>
+                                <a href="https://github.com/deanblackborough/random-grab-bag/blob/master/README.md" class="btn btn-secondary">Overview</a>
+                                <a href="https://github.com/deanblackborough/random-grab-bag/blob/master/CHANGELOG.md" class="btn btn-secondary">Changelog</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-deck" style="margin-top:2rem; margin-bottom:2rem;">
                         <div class="card w-50">
                             <div class="card-body">
                                 <h4 class="card-title">Bootstrap 4 helpers</h4>
@@ -88,12 +99,15 @@
                         </div>
                     </div>
 
-                    <div class="card-deck" style="margin-top:2rem;">
+                    <h1>Zend framework</h1>
+
+                    <div class="card-deck" style="margin-top:2rem; margin-bottom:2rem;">
                         <div class="card w-50">
                             <div class="card-body">
                                 <h4 class="card-title">Zend Framework 3 View Helpers</h4>
-                                <p class="card-text"><small class="text-muted">Latest release: v1.01.0 - Release date: 2nd December 2017</small></p>
-                                <p class="card-text">A collection of view helpers for ZF3, major bias towards Bootstrap 4.</p>
+                                <p class="card-text"><small class="text-muted">Latest release: v1.01.1 - Release date: 4th December 2017</small></p>
+                                <p class="card-text">A collection of Zend Framework 3 view helpers, primarily focused on Bootstrap 3 and 4, the
+                                    plan is to add support for every component with Bootstrap 4 and work from there.</p>
                                 <a href="https://github.com/deanblackborough/zf3-view-helpers" class="btn btn-primary">Find on GitHub</a>
                                 <a href="https://github.com/deanblackborough/zf3-view-helpers/blob/master/README.md" class="btn btn-secondary">Overview</a>
                                 <a href="https://github.com/deanblackborough/zf3-view-helpers/blob/master/CHANGELOG.md" class="btn btn-secondary">Changelog</a>
@@ -104,7 +118,8 @@
                             <div class="card-body">
                                 <h4 class="card-title">Zend Framework 3 View Helpers Code Completion</h4>
                                 <p class="card-text"><small class="text-muted">Latest release: v1.06.0 - Release date: 3rd December 2017</small></p>
-                                <p class="card-text">Helper classes to provide code completion for Zend view helpers and my custom view helpers.</p>
+                                <p class="card-text">Do you like using view helpers? If the answer is yes, you will have noticed there is no
+                                    code completion for them in your IDE, the classes in this package will solve that problem.</p>
                                 <a href="https://github.com/deanblackborough/zf3-view-helpers-code-completion" class="btn btn-primary">Find on GitHub</a>
                                 <a href="https://github.com/deanblackborough/zf3-view-helpers-code-completion/blob/master/README.md" class="btn btn-secondary">Overview</a>
                                 <a href="https://github.com/deanblackborough/zf3-view-helpers-code-completion/blob/master/CHANGELOG.md" class="btn btn-secondary">Changelog</a>
@@ -112,12 +127,15 @@
                         </div>
                     </div>
 
+                    <h1>Dlayer: Responsive web development</h1>
+
                     <div class="card-deck" style="margin-top:2rem;">
                         <div class="card w-50">
                             <div class="card-body">
                                 <h4 class="card-title">Dlayer: Responsive web development</h4>
                                 <p class="card-text"><small class="text-muted">Latest release: v1.17 - Release date: 12th September 2017</small></p>
-                                <p class="card-text">Dlayer is an Open Source responsive web development tool aimed primarily at users with limited web design or development experience.</p>
+                                <p class="card-text">Dlayer is an Open Source responsive web development tool aimed primarily
+                                    at users with limited web design or development experience.</p>
                                 <a href="https://github.com/dlayer/dlayer" class="btn btn-primary">Find on GitHub</a>
                                 <a href="https://github.com/dlayer/dlayer/blob/master/README.md" class="btn btn-secondary">Overview</a>
                                 <a href="https://github.com/dlayer/dlayer/blob/master/CHANGELOG.md" class="btn btn-secondary">Changelog</a>
@@ -128,7 +146,8 @@
                             <div class="card-body">
                                 <h4 class="card-title">Dlayer v Next: migration to Zend Framework 3</h4>
                                 <p class="card-text"><small class="text-muted">Latest release: None, in development</small></p>
-                                <p class="card-text">Dlayer is an Open Source responsive web development tool aimed primarily at users with limited web design or development experience.</p>
+                                <p class="card-text">Dlayer is an Open Source responsive web development tool aimed primarily
+                                    at users with limited web design or development experience.</p>
                                 <a href="https://github.com/dlayer/responsive-web-development" class="btn btn-primary">Find on GitHub</a>
                                 <a href="https://github.com/dlayer/responsive-web-development/blob/master/README.md" class="btn btn-secondary">Overview</a>
                             </div>
@@ -140,21 +159,12 @@
                             <div class="card-body">
                                 <h4 class="card-title">Dlayer: View helpers</h4>
                                 <p class="card-text"><small class="text-muted">Latest release: None, in development</small></p>
-                                <p class="card-text">Custom ZF3 view helpers for Dlayer vNext.</p>
+                                <p class="card-text">Custom ZF3 view helpers for Dlayer vNext, some of these view helpers
+                                    may be useful in your projects, they were created to solve problems within Dlayer
+                                    vNext, they might be useful to you with minor changes.</p>
                                 <a href="https://github.com/dlayer/view-helpers" class="btn btn-primary">Find on GitHub</a>
                                 <a href="https://github.com/dlayer/view-helpers/blob/master/README.md" class="btn btn-secondary">Overview</a>
                                 <a href="https://github.com/dlayer/view-helpers/blob/master/CHANGELOG.md" class="btn btn-secondary">Changelog</a>
-                            </div>
-                        </div>
-
-                        <div class="card w-50">
-                            <div class="card-body">
-                                <h4 class="card-title">Random Grab Bag</h4>
-                                <p class="card-text"><small class="text-muted">Latest release: v0.06 - Release date: 20th June 2017</small></p>
-                                <p class="card-text">A random grab bag of classes.</p>
-                                <a href="https://github.com/deanblackborough/random-grab-bag" class="btn btn-primary">Find on GitHub</a>
-                                <a href="https://github.com/deanblackborough/random-grab-bag/blob/master/README.md" class="btn btn-secondary">Overview</a>
-                                <a href="https://github.com/deanblackborough/random-grab-bag/blob/master/CHANGELOG.md" class="btn btn-secondary">Changelog</a>
                             </div>
                         </div>
                     </div>
