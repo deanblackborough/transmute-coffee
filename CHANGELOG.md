@@ -2,6 +2,10 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.15.0 - Design update - 2017-12-06
+
+* Minor design refresh ready for major content update. 
+
 ## v1.14.0 - New releases - 2017-12-03
 
 * New release, Bootstrap 4 helpers, v0.03.
