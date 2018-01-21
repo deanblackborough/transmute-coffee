@@ -2,6 +2,12 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.18.0 - New releases - 2018-01-21
+
+* New release, ZF3 View helper v1.02.0.
+* New release, ZF3 View helper code completion v1.07.0.
+* New release, Bootstrap 4 helpers, v0.04.
+
 ## v1.17.0 - New releases - 2018-01-05
 
 * New release, ZF3 View helper v1.01.2.
