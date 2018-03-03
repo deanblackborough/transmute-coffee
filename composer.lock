@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d08b9b467d787c3336d7a2331e38bf2",
+    "content-hash": "d7ddcc195f3b3bfdb51d525d9ce2685e",
     "packages": [
         {
             "name": "deanblackborough/bootstrap-4-helpers",
@@ -493,6 +493,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7"
+    },
     "platform-dev": []
 }
