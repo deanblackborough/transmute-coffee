@@ -2,9 +2,14 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.21.0 - New release - 2018-04-22
+
+* New release, added docker-compose-quickstart, v0.01.
+* Updated Bootstrap version to latest.
+
 ## v1.20.0 - New release - 2018-04-21
 
-# New release, Quill PHP renderer, v2.03.1.
+* New release, Quill PHP renderer, v2.03.1.
 
 ## v1.19.0 - New release - 2018-03-03
 
