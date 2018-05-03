@@ -2,6 +2,11 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.22.0 - Content - 2018-05-04
+
+* Minor content update and correction.
+* Card deck change for projects section, layout poor on tablet.
+
 ## v1.21.0 - New release - 2018-04-22
 
 * New release, added docker-compose-quickstart, v0.01.
