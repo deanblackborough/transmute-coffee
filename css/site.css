@@ -9,6 +9,11 @@ div.footer a {
     text-decoration: none;
 }
 
+h4.card-title a {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
 div.jumbotron {
     background-image: url('../images/header/moon.jpg');
     padding-bottom: 32px;
