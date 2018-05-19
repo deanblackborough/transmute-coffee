@@ -70,7 +70,7 @@
                 <div class="card text-white bg-dark">
                     <div class="card-header">Library</div>
                     <div class="card-body">
-                        <h4 class="card-title" id="PHP-Quill-Renderer"><a href="php-quill-renderer.html">PHP Quill Renderer</a></h4>
+                        <h4 class="card-title" id="PHP-Quill-Renderer"><a href="php-quill-renderer.php">PHP Quill Renderer</a></h4>
                         <p class="card-text">Quill deltas renderer, converts deltas to HTML, the Quill
                             attributes supported are listed in the table in the README, the goal is to
                             eventually support every Quill feature and add additional parsers, Markdown?</p>
@@ -279,11 +279,11 @@
 </div>
 <div class="footer bg-dark text-light">
     <dl class="row">
-        <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.html">PHP Quill Renderer</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">
             <p>Quill deltas renderer, converts deltas to HTML, the Quill attributes supported are listed in
                 the table in the README, the goal is to eventually support every Quill feature and add
-                additional parsers, Markdown?.</p>
+                additional parsers, Markdown?</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="#Bootstrap-4-helpers">Bootstrap 4 helpers</a></dt>
         <dd class="col-lg-4">
