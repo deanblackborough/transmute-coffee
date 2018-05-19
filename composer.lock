@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7ddcc195f3b3bfdb51d525d9ce2685e",
+    "hash": "b440913bc097718689d4697cc93163eb",
+    "content-hash": "daceef41636e5e95c564db3731f780a8",
     "packages": [
         {
             "name": "deanblackborough/bootstrap-4-helpers",
@@ -53,30 +54,28 @@
                 "component",
                 "helper"
             ],
-            "time": "2018-01-21T16:36:47+00:00"
+            "time": "2018-01-21 16:36:47"
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v2.03.0",
+            "version": "v3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "e482b1be0ec52eeede0844a85fab7bf0d2a32edc"
+                "reference": "2ed0a0728a961ec59fc487387c135b2e6ac24dfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/e482b1be0ec52eeede0844a85fab7bf0d2a32edc",
-                "reference": "e482b1be0ec52eeede0844a85fab7bf0d2a32edc",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/2ed0a0728a961ec59fc487387c135b2e6ac24dfc",
+                "reference": "2ed0a0728a961ec59fc487387c135b2e6ac24dfc",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6"
-            },
-            "suggest": {
-                "php": "^7.2"
+                "php-coveralls/php-coveralls": "^2",
+                "phpunit/phpunit": "^7"
             },
             "type": "library",
             "autoload": {
@@ -94,17 +93,18 @@
                     "email": "dean@g3d-development.com"
                 }
             ],
-            "description": "Render quill insert deltas to HTML and soon markdown",
-            "homepage": "https://github.com/deanblackborough/php-quill-renderer",
+            "description": "Render Quill insert deltas to HTML",
+            "homepage": "http://www.transmute-coffee.com/",
             "keywords": [
                 "delta",
                 "html",
                 "parse",
+                "php",
                 "quill",
                 "quilljs",
                 "renderer"
             ],
-            "time": "2018-03-03T01:29:44+00:00"
+            "time": "2018-05-15 23:05:53"
         },
         {
             "name": "deanblackborough/random-grab-bag",
@@ -149,28 +149,29 @@
                 "image-crop",
                 "image-resize"
             ],
-            "time": "2017-12-10T02:15:23+00:00"
+            "time": "2017-12-10 02:15:23"
         },
         {
             "name": "deanblackborough/zf3-view-helpers",
-            "version": "v1.02.1",
+            "version": "v1.02.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/zf3-view-helpers.git",
-                "reference": "1e29e7d2e9c0d3850c4df163db87d015b3dc27f6"
+                "reference": "087e45bc39ed9b596ce99aa8b857e0201bb92bdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/1e29e7d2e9c0d3850c4df163db87d015b3dc27f6",
-                "reference": "1e29e7d2e9c0d3850c4df163db87d015b3dc27f6",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/087e45bc39ed9b596ce99aa8b857e0201bb92bdf",
+                "reference": "087e45bc39ed9b596ce99aa8b857e0201bb92bdf",
                 "shasum": ""
             },
             "require": {
-                "php": "^7",
+                "php": "^7.2",
                 "zendframework/zend-view": "^2.10"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6"
+                "php-coveralls/php-coveralls": "^2",
+                "phpunit/phpunit": "^7"
             },
             "suggest": {
                 "deanblackborough/zf3-view-helpers-code-completion": "^1",
@@ -202,7 +203,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2018-01-20T21:53:03+00:00"
+            "time": "2018-05-15 23:31:38"
         },
         {
             "name": "deanblackborough/zf3-view-helpers-code-completion",
@@ -254,20 +255,20 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2018-01-20T22:10:13+00:00"
+            "time": "2018-01-20 22:10:13"
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "9d72db10ceb6e42fb92350c0cb54460da61bd79c"
+                "reference": "a5e2583a211f73604691586b8406ff7296a946dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/9d72db10ceb6e42fb92350c0cb54460da61bd79c",
-                "reference": "9d72db10ceb6e42fb92350c0cb54460da61bd79c",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/a5e2583a211f73604691586b8406ff7296a946dd",
+                "reference": "a5e2583a211f73604691586b8406ff7296a946dd",
                 "shasum": ""
             },
             "require": {
@@ -276,7 +277,7 @@
             "require-dev": {
                 "athletic/athletic": "^0.1",
                 "container-interop/container-interop": "^1.1.0",
-                "phpunit/phpunit": "^6.0.7 || ^5.7.14",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
             },
@@ -308,34 +309,34 @@
                 "events",
                 "zf2"
             ],
-            "time": "2017-07-11T19:17:22+00:00"
+            "time": "2018-04-25 15:33:34"
         },
         {
             "name": "zendframework/zend-loader",
-            "version": "2.5.1",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-loader.git",
-                "reference": "c5fd2f071bde071f4363def7dea8dec7393e135c"
+                "reference": "78f11749ea340f6ca316bca5958eef80b38f9b6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/c5fd2f071bde071f4363def7dea8dec7393e135c",
-                "reference": "c5fd2f071bde071f4363def7dea8dec7393e135c",
+                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/78f11749ea340f6ca316bca5958eef80b38f9b6c",
+                "reference": "78f11749ea340f6ca316bca5958eef80b38f9b6c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.4",
+                "zendframework/zend-coding-standard": "~1.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6.x-dev",
+                    "dev-develop": "2.7.x-dev"
                 }
             },
             "autoload": {
@@ -347,40 +348,41 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-loader",
+            "description": "Autoloading and plugin loading strategies",
             "keywords": [
+                "ZendFramework",
                 "loader",
-                "zf2"
+                "zf"
             ],
-            "time": "2015-06-03T14:05:47+00:00"
+            "time": "2018-04-30 15:20:54"
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "debedcfc373a293f9250cc9aa03cf121428c8e78"
+                "reference": "cd164b4a18b5d1aeb69be2c26db035b5ed6925ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/debedcfc373a293f9250cc9aa03cf121428c8e78",
-                "reference": "debedcfc373a293f9250cc9aa03cf121428c8e78",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/cd164b4a18b5d1aeb69be2c26db035b5ed6925ae",
+                "reference": "cd164b4a18b5d1aeb69be2c26db035b5ed6925ae",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "athletic/athletic": "~0.1",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "^2.6.2"
+                "phpbench/phpbench": "^0.13",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
+                "zendframework/zend-coding-standard": "~1.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev",
-                    "dev-develop": "3.2-dev"
+                    "dev-master": "3.2.x-dev",
+                    "dev-develop": "3.3.x-dev"
                 }
             },
             "autoload": {
@@ -392,12 +394,13 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-stdlib",
+            "description": "SPL extensions, array utilities, error handlers, and more",
             "keywords": [
+                "ZendFramework",
                 "stdlib",
-                "zf2"
+                "zf"
             ],
-            "time": "2016-09-13T14:38:50+00:00"
+            "time": "2018-04-30 13:50:40"
         },
         {
             "name": "zendframework/zend-view",
@@ -484,7 +487,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2018-01-17T22:21:50+00:00"
+            "time": "2018-01-17 22:21:50"
         }
     ],
     "packages-dev": [],
@@ -494,7 +497,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7"
+        "php": "^7.2"
     },
     "platform-dev": []
 }

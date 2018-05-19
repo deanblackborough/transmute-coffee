@@ -9,15 +9,12 @@
         }
     ],
     "require": {
-        "php": "^7",
-        "deanblackborough/php-quill-renderer": "^2",
+        "php": "^7.2",
+        "deanblackborough/php-quill-renderer": "^3",
         "deanblackborough/random-grab-bag": "^0",
         "deanblackborough/zf3-view-helpers": "^1",
         "deanblackborough/zf3-view-helpers-code-completion": "^1",
         "deanblackborough/bootstrap-4-helpers": "^0"
-    },
-    "suggest": {
-        "php": "^7.2"
     },
     "require-dev": {
 
