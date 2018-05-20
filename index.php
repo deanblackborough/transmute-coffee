@@ -25,7 +25,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/deanblackborough/php-quill-renderer">PHP Quill Renderer</a>
+                <a class="nav-link" href="/php-quill-renderer.php">PHP Quill Renderer</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link"
@@ -76,14 +76,13 @@
                             eventually support every Quill feature and add additional parsers, Markdown?</p>
                         <a href="https://github.com/deanblackborough/php-quill-renderer"
                            class="btn btn-outline-primary">GitHub</a>
-                        <a href="https://github.com/deanblackborough/php-quill-renderer/blob/master/README.md"
-                           class="btn btn-outline-secondary">Overview</a>
+                        <a href="/php-quill-renderer.php" class="btn btn-outline-secondary">Overview</a>
                         <a href="https://github.com/deanblackborough/php-quill-renderer/blob/master/CHANGELOG.md"
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v3.10.0<br/>
-                            <strong>Release date:</strong> 16th May 2018
+                        <small><strong>Latest release:</strong> v3.10.1<br/>
+                            <strong>Release date:</strong> 21st May 2018
                         </small>
                     </div>
                 </div>

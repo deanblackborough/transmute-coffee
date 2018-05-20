@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/deanblackborough/php-quill-renderer">PHP Quill Renderer</a>
+                <a class="nav-link active" href="/php-quill-renderer.php">PHP Quill Renderer</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link"
@@ -52,11 +52,9 @@
                 <h1 class="display-3">PHP Quill Renderer</h1>
                 <p class="text-right">
                     <a href="https://github.com/deanblackborough/php-quill-renderer"
-                       class="btn btn-primary">View on GitHub - v3.10.0</a>
-                    <a href="https://github.com/deanblackborough/php-quill-renderer/blob/master/README.md"
-                       class="btn btn-secondary">Overview</a>
+                       class="btn btn-primary">View on GitHub - v3.10.1</a>
                     <a href="https://github.com/deanblackborough/php-quill-renderer/blob/master/CHANGELOG.md"
-                       class="btn btn-secondary">Changelog</a>
+                       class="btn btn-secondary">View changelog</a>
                 </p>
             </div>
         </div>
@@ -68,6 +66,36 @@
             <p class="lead">Quill deltas renderer, converts deltas to HTML, the Quill attributes supported
                 are listed in the table in the README, the goal is to eventually support every Quill feature and
                 add additional parsers, Markdown?</p>
+
+            <p><a href="https://github.com/quilljs/quill">Quilljs</a> is a modern WYSIWYG editor built for
+                compatibility and extensibility.</p>
+
+            <p>In my projects I include Quill via <code>yarn</code>, create a hidden input to store the data and then
+                on submit pass the data along to the hidden input.</p>
+
+            <h3>Instantiate the editor</h3>
+            <pre class="bg-secondary text-light p-4">
+var quill = new Quill('#quill-editor', {
+    modules: {
+        toolbar: [
+            [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+            ['bold', 'italic', 'underline', 'strike'],
+            ['link'],
+            [{ 'script': 'sub'}, { 'script': 'super' }],
+            [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+            ['clean']
+        ]
+    },
+    placeholder: 'Compose an epic...',
+    theme: 'snow'
+});</pre>
+
+            <h3>Pass to hidden input</h3>
+            <pre class="bg-secondary text-light p-4">
+$('form').submit(function() {
+    $('#hidden_element').val(JSON.stringify(quill.getContents()));
+    return true;
+});</pre>
 
             <h2>Installation</h2>
 
@@ -99,9 +127,13 @@ echo $result;</pre>
 
                 <div id="quill-editor"></div>
                 <p class="mt-1">
-                    <input type="submit" name="submit" value="Parse" />
+                    <input type="submit" name="submit" value="Parse" class="btn-outline-dark" />
                 </p>
             </form>
+
+            <p><em>No submitted text is saved, I simply pass the POSTed text along to the PHP Quill Renderer and
+                output, check <a href="https://github.com/deanblackborough/transmute-coffee/blob/master/php-quill-renderer.php">here</a>
+                if you would like to confirmation.</em></p>
 
             <?php if(isset($_POST['submit']) === true && strlen(trim($_POST['quill-editor-input'])) > 0) { ?>
 
