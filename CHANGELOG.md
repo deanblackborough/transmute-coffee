@@ -2,6 +2,11 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.26.0 - New release - 2018-05-21
+
+* New release, Quill PHP renderer, v3.10.1.
+* Updated PHP Quill Renderer detail page.
+
 ## v1.25.0 - Quill detail page - 2018-05-19
 
 * Updated releases for PHP Quill renderer and Zend View helpers.
