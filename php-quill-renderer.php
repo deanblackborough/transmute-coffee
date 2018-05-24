@@ -133,7 +133,7 @@ echo $result;</pre>
 
             <p><em>No submitted text is saved, I simply pass the POSTed text along to the PHP Quill Renderer and
                 output, check <a href="https://github.com/deanblackborough/transmute-coffee/blob/master/php-quill-renderer.php">here</a>
-                if you would like to confirmation.</em></p>
+                if you would like to confirm.</em></p>
 
             <?php if(isset($_POST['submit']) === true && strlen(trim($_POST['quill-editor-input'])) > 0) { ?>
 
