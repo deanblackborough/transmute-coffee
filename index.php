@@ -76,8 +76,7 @@
                             eventually support every Quill feature and add additional parsers, Markdown?</p>
                         <a href="https://github.com/deanblackborough/php-quill-renderer"
                            class="btn btn-outline-primary">GitHub</a>
-                        <a href="https://github.com/deanblackborough/php-quill-renderer/blob/master/README.md"
-                           class="btn btn-outline-secondary">Overview</a>
+                        <a href="/php-quill-renderer.php" class="btn btn-outline-secondary">Overview</a>
                         <a href="https://github.com/deanblackborough/php-quill-renderer/blob/master/CHANGELOG.md"
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
