@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "b440913bc097718689d4697cc93163eb",
     "content-hash": "daceef41636e5e95c564db3731f780a8",
     "packages": [
         {
@@ -53,28 +54,31 @@
                 "component",
                 "helper"
             ],
-            "time": "2018-01-21T16:36:47+00:00"
+            "time": "2018-01-21 16:36:47"
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.11.0",
+            "version": "v3.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "0766e493f70cb3758aee4b0874e97ba16bd52350"
+                "reference": "76b70bdb8dc36160aca40962312b413a09d1f59d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/0766e493f70cb3758aee4b0874e97ba16bd52350",
-                "reference": "0766e493f70cb3758aee4b0874e97ba16bd52350",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/76b70bdb8dc36160aca40962312b413a09d1f59d",
+                "reference": "76b70bdb8dc36160aca40962312b413a09d1f59d",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": "^7.1"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2",
                 "phpunit/phpunit": "^7"
+            },
+            "suggest": {
+                "php": "^7.2"
             },
             "type": "library",
             "autoload": {
@@ -104,7 +108,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2018-05-29T11:45:05+00:00"
+            "time": "2018-06-13 23:33:48"
         },
         {
             "name": "deanblackborough/random-grab-bag",
@@ -149,7 +153,7 @@
                 "image-crop",
                 "image-resize"
             ],
-            "time": "2017-12-10T02:15:23+00:00"
+            "time": "2017-12-10 02:15:23"
         },
         {
             "name": "deanblackborough/zf3-view-helpers",
@@ -203,7 +207,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2018-05-15T23:31:38+00:00"
+            "time": "2018-05-15 23:31:38"
         },
         {
             "name": "deanblackborough/zf3-view-helpers-code-completion",
@@ -255,7 +259,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2018-01-20T22:10:13+00:00"
+            "time": "2018-01-20 22:10:13"
         },
         {
             "name": "zendframework/zend-eventmanager",
@@ -309,7 +313,7 @@
                 "events",
                 "zf2"
             ],
-            "time": "2018-04-25T15:33:34+00:00"
+            "time": "2018-04-25 15:33:34"
         },
         {
             "name": "zendframework/zend-loader",
@@ -354,7 +358,7 @@
                 "loader",
                 "zf"
             ],
-            "time": "2018-04-30T15:20:54+00:00"
+            "time": "2018-04-30 15:20:54"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -400,7 +404,7 @@
                 "stdlib",
                 "zf"
             ],
-            "time": "2018-04-30T13:50:40+00:00"
+            "time": "2018-04-30 13:50:40"
         },
         {
             "name": "zendframework/zend-view",
@@ -487,7 +491,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2018-01-17T22:21:50+00:00"
+            "time": "2018-01-17 22:21:50"
         }
     ],
     "packages-dev": [],
