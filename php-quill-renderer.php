@@ -125,36 +125,51 @@ echo $result;</pre>
             <form action="/php-quill-renderer.php#demo" method="post" class="demo">
                 <input type="hidden" id="quill-editor-input" name="quill-editor-input" />
 
-                <div id="quill-editor"></div>
-                <p class="mt-1">
-                    <input type="submit" name="submit" value="Parse" class="btn-outline-dark" />
-                </p>
+                <div class="form-group">
+                    <div id="quill-editor"></div>
+                </div>
+                <div class="form-group row">
+                    <label for="format" class="col-2 col-form-label">Convert... </label>
+                    <select name="quill-editor-format" title="Select output format" class="form-control col-2">
+                        <option value="HTML"<?php if(isset($_POST['quill-editor-format']) && trim($_POST['quill-editor-format']) === 'HTML') { echo  " selected=\"selected\""; } ?>>to HTML</option>
+                        <option value="Markdown"<?php if(isset($_POST['quill-editor-format']) && trim($_POST['quill-editor-format']) === 'Markdown') { echo  " selected=\"selected\""; } ?>>to Markdown</option>
+                    </select>
+                </div>
+                <input type="submit" name="submit" value="Parse" class="btn btn-primary" />
             </form>
 
-            <p><em>No submitted text is saved, I simply pass the POSTed text along to the PHP Quill Renderer and
+            <p class="mt-3"><em>No submitted text is saved, I simply pass the POSTed text along to the PHP Quill Renderer and
                 output, check <a href="https://github.com/deanblackborough/transmute-coffee/blob/master/php-quill-renderer.php">here</a>
                 if you would like to confirm.</em></p>
 
-            <?php if(isset($_POST['submit']) === true && strlen(trim($_POST['quill-editor-input'])) > 0) { ?>
+            <?php if(
+                isset($_POST['submit']) === true &&
+                strlen(trim($_POST['quill-editor-input'])) > 0 &&
+                in_array(trim($_POST['quill-editor-format']), ['HTML', 'Markdown']) === true
+            ) { ?>
 
             <h3>Deltas JSON</h3>
 
-            <pre class="bg-secondary text-light p-4"><?php echo $_POST['quill-editor-input']; ?></pre>
+            <pre class="bg-secondary text-light p-4"><?php echo trim($_POST['quill-editor-input']); ?></pre>
 
-            <h3>Generated HTML</h3>
+            <h3>Generated <?php echo trim($_POST['quill-editor-format']); ?></h3>
 
-            <div class="bg-light p-4 border">
+            <div class="bg-light p-4 border mb-3">
             <?php
                 try {
-                    $quill = new \DBlackborough\Quill\Render(trim($_POST['quill-editor-input']), 'HTML');
+                    $quill = new \DBlackborough\Quill\Render(trim($_POST['quill-editor-input']), trim($_POST['quill-editor-format']));
                     $html = $quill->render();
                 } catch (\Exception $e) {
                     echo $e->getMessage();
                 }
 
-                echo $html . PHP_EOL;;
-                echo '<hr />' . PHP_EOL;
-                echo htmlentities($html);
+                if (trim($_POST['quill-editor-format']) === 'HTML') {
+                    echo $html . PHP_EOL;
+                    echo '<hr />' . PHP_EOL;
+                    echo '<pre>' . htmlentities($html) . '</pre>';
+                } else {
+                    echo nl2br($html);
+                }
             ?>
             </div>
 
