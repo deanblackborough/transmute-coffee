@@ -58,16 +58,16 @@
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.13.1",
+            "version": "v3.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "a46ff70dba10c22f3f4b0abf3100a481d2da639c"
+                "reference": "d7fb1a52bc7a9449cc732a1d0601a2628501e07c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/a46ff70dba10c22f3f4b0abf3100a481d2da639c",
-                "reference": "a46ff70dba10c22f3f4b0abf3100a481d2da639c",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/d7fb1a52bc7a9449cc732a1d0601a2628501e07c",
+                "reference": "d7fb1a52bc7a9449cc732a1d0601a2628501e07c",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2018-06-21 23:18:36"
+            "time": "2018-07-01 17:16:27"
         },
         {
             "name": "deanblackborough/random-grab-bag",
