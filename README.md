@@ -3,14 +3,18 @@
 
 # Transmute Coffee
 
-The transmute coffee website, this site gives an overview of each of my 
-Open Source libraries and long term development projects.
+The transmute coffee website, this site gives an overview of each of my Open Source libraries and long term development projects.
 
 ## Libraries
 
-* PHP Quill Renderer - Render deltas to HTML and soon Markdown.
+* PHP Quill Renderer - Render quill insert deltas to HTML and Markdown.
 * Random grab bag. - Utility classes that don't have a home.
 * Bootstrap 4 helpers - Helpers to create Bootstrap 4 components.
+
+## Quick start
+
+* Docker quick start for a PHP/MySQL web app - Bootstrap to help with the setup of a PHP/MySQL web app using Docker for local 
+development, this app does not do anything other than echo phpinfo() it is simply a starting point for your development.
 
 ## Zend framework libraries
 
