@@ -2,6 +2,11 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.32.0 - New release - 2018-07-11
+
+* New release, Quill PHP renderer, v3.14.0.
+* Updated the demo, now allows GitHub flavoured Markdown as an output option.
+
 ## v1.31.0 - New release - 2018-07-09
 
 * New release, Quill PHP renderer, v3.13.4.
