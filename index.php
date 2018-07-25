@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64736-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-64736-9');
+    </script>
     <meta charset="UTF-8">
     <title>Transmute Coffee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,6 +33,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
+                <a class="nav-link" href="https://github.com/costs-to-expect/api">Costs to expect: API</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>
             </li>
             <li class="nav-item">
@@ -32,10 +43,10 @@
                    href="https://github.com/deanblackborough/zf3-view-helpers">ZF3 View Helpers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://www.deanblackborough.com">Dean Blackborough.com</a>
+                <a class="nav-link" href="https://www.deanblackborough.com">Dean Blackborough.com</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://www.gsd-development.com">G3D Development Limited</a>
+                <a class="nav-link" href="https://www.g3d-development.com">G3D Development Limited</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/deanblackborough">GitHub</a>
@@ -61,6 +72,32 @@
 
             <p>This site will eventually have a page/section dedicated to each project, for now, please just follow
                 the links to my <a href="https://github.com/deanblackborough">GitHub</a> profile.</p>
+
+            <h2>Projects</h2>
+
+            <p>Active development projects.</p>
+
+            <div class="card-deck mb-4">
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project/API</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="costs-to-expect-api">Costs to expect: API</a></h4>
+                        <p class="card-text">The RESTful API for costs to expect, the iOS app and website will consume
+                            the data, costs to expect is recording the costs required to raise my child to the age of
+                            18.</p>
+                        <a href="https://github.com/costs-to-expect/api"
+                           class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/costs-to-expect/api/blob/master/README.md" class="btn btn-outline-secondary">Overview</a>
+                        <a href="https://github.com/costs-to-expect/api/blob/master/CHANGELOG.md"
+                           class="btn btn-outline-secondary">Changelog</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> None<br/>
+                            <strong>Release date:</strong> In development
+                        </small>
+                    </div>
+                </div>
+            </div>
 
             <h2>Utility projects</h2>
 

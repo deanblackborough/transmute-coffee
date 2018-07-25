@@ -2,6 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64736-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-64736-9');
+    </script>
     <meta charset="UTF-8">
     <title>Transmute Coffee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +35,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
+                <a class="nav-link" href="https://github.com/costs-to-expect/api">Costs to expect: API</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>
             </li>
             <li class="nav-item">
@@ -34,10 +45,10 @@
                    href="https://github.com/deanblackborough/zf3-view-helpers">ZF3 View Helpers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://www.deanblackborough.com">Dean Blackborough.com</a>
+                <a class="nav-link" href="https://www.deanblackborough.com">Dean Blackborough.com</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://www.gsd-development.com">G3D Development Limited</a>
+                <a class="nav-link" href="https://www.g3d-development.com">G3D Development Limited</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/deanblackborough">GitHub</a>

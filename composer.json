@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.1",
         "deanblackborough/php-quill-renderer": "^3",
         "deanblackborough/random-grab-bag": "^0",
         "deanblackborough/zf3-view-helpers": "^1",
