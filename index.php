@@ -97,6 +97,24 @@
                         </small>
                     </div>
                 </div>
+
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project/Dlayer</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="dlayer-v3">Dlayer - v3</a></h4>
+                        <p class="card-text">Dlayer is a collection of web tools, extension of the original Dlayer,
+                            this project is a rework of the original Dlayer project.</p>
+                        <a href="https://github.com/Dlayer/dlayer-v3"
+                           class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/Dlayer/dlayer-v3/blob/master/README.md"
+                           class="btn btn-outline-secondary">Overview</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> None<br/>
+                            <strong>Release date:</strong> In development
+                        </small>
+                    </div>
+                </div>
             </div>
 
             <h2>Utility projects</h2>
@@ -245,7 +263,7 @@
 
             <hr/>
 
-            <h2>Dlayer: Responsive web development</h2>
+            <h2>Dlayer: Responsive web development <small>Archived</small></h2>
 
             <p>A project I have been working on for a number of years, the majority of my small projects
                 spawn from requirements for Dlayer.</p>
@@ -268,27 +286,6 @@
                     </div>
                 </div>
 
-                <div class="card text-white bg-dark">
-                    <div class="card-header">Project</div>
-                    <div class="card-body">
-                        <h4 class="card-title" id="Dlayer">Dlayer: Responsive web development</h4>
-                        <p class="card-text">Dlayer is an Open Source responsive web development tool aimed
-                            primarily at users with limited web design or development experience.</p>
-                        <a href="https://github.com/dlayer/dlayer" class="btn btn-outline-primary">GitHub</a>
-                        <a href="https://github.com/dlayer/dlayer/blob/master/README.md"
-                           class="btn btn-outline-secondary">Overview</a>
-                        <a href="https://github.com/dlayer/dlayer/blob/master/CHANGELOG.md"
-                           class="btn btn-outline-secondary">Changelog</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.17<br/>
-                            <strong>Release date:</strong> 12th September 2017
-                        </small>
-                    </div>
-                </div>
-
-            </div>
-            <div class="card-deck mb-4">
                 <div class="card text-white bg-dark">
                     <div class="card-header">ZF3 library</div>
                     <div class="card-body">
@@ -315,6 +312,16 @@
 </div>
 <div class="footer bg-dark text-light">
     <dl class="row">
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to expect: API</a></dt>
+        <dd class="col-lg-4">
+            <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
+                recording the costs required to raise my child to the age of 18.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
+        <dd class="col-lg-4">
+            <p>Dlayer is a collection of web tools, extension of the original Dlayer, this project is a rework of the
+                original Dlayer project.</p>
+        </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">
             <p>Quill deltas renderer, converts deltas to HTML, the Quill attributes supported are listed in

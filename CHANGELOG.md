@@ -2,6 +2,14 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.33.0 - New release - 2018-07-25
+
+* Set requirement to 7.1
+* Added Google analytics tracking
+* Added Costs to expect: API
+* Updated links, now https
+* Added Dlayer - v3 to projects
+
 ## v1.32.0 - New release - 2018-07-11
 
 * New release, Quill PHP renderer, v3.14.0.

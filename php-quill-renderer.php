@@ -199,6 +199,16 @@ echo $result;</pre>
 </div>
 <div class="footer bg-dark text-light">
     <dl class="row">
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to expect: API</a></dt>
+        <dd class="col-lg-4">
+            <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
+                recording the costs required to raise my child to the age of 18.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
+        <dd class="col-lg-4">
+            <p>Dlayer is a collection of web tools, extension of the original Dlayer, this project is a rework of the
+                original Dlayer project.</p>
+        </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">
             <p>Quill deltas renderer, converts deltas to HTML, the Quill attributes supported are listed in
