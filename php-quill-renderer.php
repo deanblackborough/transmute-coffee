@@ -2,6 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64736-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-64736-9');
+    </script>
     <meta charset="UTF-8">
     <title>Transmute Coffee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +35,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
+                <a class="nav-link" href="https://github.com/costs-to-expect/api">Costs to expect: API</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>
             </li>
             <li class="nav-item">
@@ -34,10 +45,10 @@
                    href="https://github.com/deanblackborough/zf3-view-helpers">ZF3 View Helpers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://www.deanblackborough.com">Dean Blackborough.com</a>
+                <a class="nav-link" href="https://www.deanblackborough.com">Dean Blackborough.com</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://www.gsd-development.com">G3D Development Limited</a>
+                <a class="nav-link" href="https://www.g3d-development.com">G3D Development Limited</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/deanblackborough">GitHub</a>
@@ -188,6 +199,16 @@ echo $result;</pre>
 </div>
 <div class="footer bg-dark text-light">
     <dl class="row">
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to expect: API</a></dt>
+        <dd class="col-lg-4">
+            <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
+                recording the costs required to raise my child to the age of 18.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
+        <dd class="col-lg-4">
+            <p>Dlayer is a collection of web tools, extension of the original Dlayer, this project is a rework of the
+                original Dlayer project.</p>
+        </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">
             <p>Quill deltas renderer, converts deltas to HTML, the Quill attributes supported are listed in
