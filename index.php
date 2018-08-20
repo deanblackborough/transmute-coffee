@@ -126,8 +126,8 @@
                     <div class="card-header">Library</div>
                     <div class="card-body">
                         <h4 class="card-title" id="PHP-Quill-Renderer"><a href="php-quill-renderer.php">PHP Quill Renderer</a></h4>
-                        <p class="card-text">Quill deltas renderer, converts deltas to HTML and markdown, the Quill
-                            attributes supported are listed in the table in the README, the goal is to
+                        <p class="card-text">Quill deltas renderer, converts deltas to HTML, Markdown and Github flavoured Markdown,
+                            the Quill attributes supported are listed in the table in the README, the goal is to
                             eventually support every Quill feature and add additional parsers.</p>
                         <a href="https://github.com/deanblackborough/php-quill-renderer"
                            class="btn btn-outline-primary">GitHub</a>
@@ -136,8 +136,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v3.14.0<br/>
-                            <strong>Release date:</strong> 10th July 2018
+                        <small><strong>Latest release:</strong> v3.14.1<br/>
+                            <strong>Release date:</strong> 20th August 2018
                         </small>
                     </div>
                 </div>

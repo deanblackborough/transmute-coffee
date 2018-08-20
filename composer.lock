@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b440913bc097718689d4697cc93163eb",
-    "content-hash": "daceef41636e5e95c564db3731f780a8",
+    "hash": "60ed32cf01d431aa565f4d28ddb591fc",
+    "content-hash": "0b68a430bc6a62578b8ab1e1fc7b49af",
     "packages": [
         {
             "name": "deanblackborough/bootstrap-4-helpers",
@@ -58,16 +58,16 @@
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.14.0",
+            "version": "v3.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "07f2957cbfdba3b63cb4251c2800d2ffd2ee7f2f"
+                "reference": "70524d5f7daf8c77ae5121598dbaf69bcd9a7b0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/07f2957cbfdba3b63cb4251c2800d2ffd2ee7f2f",
-                "reference": "07f2957cbfdba3b63cb4251c2800d2ffd2ee7f2f",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/70524d5f7daf8c77ae5121598dbaf69bcd9a7b0f",
+                "reference": "70524d5f7daf8c77ae5121598dbaf69bcd9a7b0f",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
                     "email": "dean@g3d-development.com"
                 }
             ],
-            "description": "Render Quill insert deltas to HTML",
+            "description": "Render quill insert deltas to HTML, Markdown and GitHub flavoured Markdown ",
             "homepage": "http://www.transmute-coffee.com/php-quill-renderer.php",
             "keywords": [
                 "delta",
@@ -108,7 +108,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2018-07-10 11:58:25"
+            "time": "2018-08-20 22:26:52"
         },
         {
             "name": "deanblackborough/random-grab-bag",
@@ -501,7 +501,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2"
+        "php": "^7.1"
     },
     "platform-dev": []
 }
