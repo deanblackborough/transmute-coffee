@@ -93,7 +93,7 @@
                     </div>
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> None<br/>
-                            <strong>Release date:</strong> In development
+                            <strong>Release date:</strong> Soon
                         </small>
                     </div>
                 </div>
@@ -102,8 +102,8 @@
                     <div class="card-header">Project/Dlayer</div>
                     <div class="card-body">
                         <h4 class="card-title" id="dlayer-v3">Dlayer - v3</a></h4>
-                        <p class="card-text">Dlayer is a collection of web tools, extension of the original Dlayer,
-                            this project is a rework of the original Dlayer project.</p>
+                        <p class="card-text">Dlayer is a collection of web tools, this WIP project is a
+                            rework of the original <a href="#Dlayer">Dlayer</a> project and conversion from ZF to Laravel.</p>
                         <a href="https://github.com/Dlayer/dlayer-v3"
                            class="btn btn-outline-primary">GitHub</a>
                         <a href="https://github.com/Dlayer/dlayer-v3/blob/master/README.md"
@@ -263,12 +263,29 @@
 
             <hr/>
 
-            <h2>Dlayer: Responsive web development <small>Archived</small></h2>
+            <h2>Dlayer: Responsive web development <small>(Archived)</small></h2>
 
             <p>A project I have been working on for a number of years, the majority of my small projects
                 spawn from requirements for Dlayer.</p>
 
             <div class="card-deck mb-4">
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="Dlayer">Dlayer</h4>
+                        <p class="card-text">Dlayer is an Open Source responsive web development tool aimed
+                            primarily at users with limited web design or development experience.</p>
+                        <a href="https://github.com/dlayer/dlayer" class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/dlayer/dlayer/blob/master/README.md"
+                           class="btn btn-outline-secondary">Overview</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> v1.17<br/>
+                            <strong>Release date:</strong> 13th September 2017
+                        </small>
+                    </div>
+                </div>
+
                 <div class="card text-white bg-dark">
                     <div class="card-header">Project</div>
                     <div class="card-body">
@@ -281,7 +298,7 @@
                     </div>
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> None<br/>
-                            <strong>Release date:</strong> In development
+                            <strong>Release date:</strong> Archived
                         </small>
                     </div>
                 </div>
