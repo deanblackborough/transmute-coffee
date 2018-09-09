@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/costs-to-expect/api">Costs to expect: API</a>
+                <a class="nav-link" href="https://github.com/costs-to-expect">Costs to expect</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>
@@ -82,6 +82,8 @@
                     <div class="card-header">Project/API</div>
                     <div class="card-body">
                         <h4 class="card-title" id="costs-to-expect-api">Costs to expect: API</a></h4>
+                        <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
+                            the costs to raise a child to 18 years of age.</p>
                         <p class="card-text">The RESTful API for costs to expect, the iOS app and website will consume
                             the data, costs to expect is recording the costs required to raise my child to the age of
                             18.</p>
@@ -92,8 +94,29 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> v1.00.0<br/>
+                            <strong>Release date:</strong> 7th September 2018
+                        </small>
+                    </div>
+                </div>
+
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project/Web App</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="costs-to-expect-web-app">Costs to expect: Web App</a></h4>
+                        <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
+                            the costs to raise a child to 18 years of age.</p>
+                        <p class="card-text">The prototype web app for Costs to Expect, exists to test a few ideas
+                            before development of the iOS app begins.</p>
+                        <a href="https://github.com/costs-to-expect/web-app"
+                           class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/costs-to-expect/web-app/blob/master/README.md" class="btn btn-outline-secondary">Overview</a>
+                        <a href="https://github.com/costs-to-expect/web-app/blob/master/CHANGELOG.md"
+                           class="btn btn-outline-secondary">Changelog</a>
+                    </div>
+                    <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> None<br/>
-                            <strong>Release date:</strong> Soon
+                            <strong>Release date:</strong> In development
                         </small>
                     </div>
                 </div>
@@ -333,6 +356,11 @@
         <dd class="col-lg-4">
             <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
                 recording the costs required to raise my child to the age of 18.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-web-app">Costs to expect: Web App</a></dt>
+        <dd class="col-lg-4">
+            <p>The prototype web app for Costs to Expect, exists to test a few ideas before development of the
+                iOS app begins.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
         <dd class="col-lg-4">

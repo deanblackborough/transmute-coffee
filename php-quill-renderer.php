@@ -35,7 +35,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/costs-to-expect/api">Costs to expect: API</a>
+                <a class="nav-link" href="https://github.com/costs-to-expect">Costs to expect</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>
@@ -204,10 +204,10 @@ echo $result;</pre>
             <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
                 recording the costs required to raise my child to the age of 18.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-web-app">Costs to expect: Web App</a></dt>
         <dd class="col-lg-4">
-            <p>Dlayer is a collection of web tools, extension of the original Dlayer, this project is a rework of the
-                original Dlayer project.</p>
+            <p>The prototype web app for Costs to Expect, exists to test a few ideas before development of the
+                iOS app begins.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">
