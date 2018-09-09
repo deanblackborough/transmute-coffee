@@ -2,17 +2,23 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.35.0 - New Project - 2018-09-10
+
+* Added Costs to Expect Web App.
+* Updated the test for Costs to Expect.
+* Missing full stops in changelog.
+
 ## v1.34.0 - New release - 2018-08-20
 
-* New release, PHP Quill Renderer v3.14.1
+* New release, PHP Quill Renderer v3.14.1.
 
 ## v1.33.0 - New release - 2018-07-25
 
-* Set requirement to 7.1
-* Added Google analytics tracking
-* Added Costs to expect: API
-* Updated links, now https
-* Added Dlayer - v3 to projects
+* Set requirement to 7.1.
+* Added Google analytics tracking.
+* Added Costs to expect: API.
+* Updated links, now https.
+* Added Dlayer - v3 to projects.
 
 ## v1.32.0 - New release - 2018-07-11
 
