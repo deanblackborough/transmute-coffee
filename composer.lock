@@ -58,16 +58,16 @@
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.14.1",
+            "version": "v3.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "70524d5f7daf8c77ae5121598dbaf69bcd9a7b0f"
+                "reference": "5c7e758714f6a61c92d0077184140f46d8737cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/70524d5f7daf8c77ae5121598dbaf69bcd9a7b0f",
-                "reference": "70524d5f7daf8c77ae5121598dbaf69bcd9a7b0f",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/5c7e758714f6a61c92d0077184140f46d8737cdb",
+                "reference": "5c7e758714f6a61c92d0077184140f46d8737cdb",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2018-08-20 22:26:52"
+            "time": "2018-09-11 13:28:23"
         },
         {
             "name": "deanblackborough/random-grab-bag",
@@ -362,16 +362,16 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "cd164b4a18b5d1aeb69be2c26db035b5ed6925ae"
+                "reference": "66536006722aff9e62d1b331025089b7ec71c065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/cd164b4a18b5d1aeb69be2c26db035b5ed6925ae",
-                "reference": "cd164b4a18b5d1aeb69be2c26db035b5ed6925ae",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/66536006722aff9e62d1b331025089b7ec71c065",
+                "reference": "66536006722aff9e62d1b331025089b7ec71c065",
                 "shasum": ""
             },
             "require": {
@@ -404,7 +404,7 @@
                 "stdlib",
                 "zf"
             ],
-            "time": "2018-04-30 13:50:40"
+            "time": "2018-08-28 21:34:05"
         },
         {
             "name": "zendframework/zend-view",
