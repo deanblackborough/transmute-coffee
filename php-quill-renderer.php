@@ -202,7 +202,7 @@ echo $result;</pre>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to expect: API</a></dt>
         <dd class="col-lg-4">
             <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
-                recording the costs required to raise my child to the age of 18.</p>
+                recording the expenses required to raise my child to the age of 18.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-web-app">Costs to expect: Web App</a></dt>
         <dd class="col-lg-4">

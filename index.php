@@ -82,8 +82,8 @@
                     <div class="card-header">Project/API</div>
                     <div class="card-body">
                         <h4 class="card-title" id="costs-to-expect-api">Costs to expect: API</a></h4>
-                        <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
-                            the costs to raise a child to 18 years of age.</p>
+                        <p class="card-text">Costs to Expect is a long-term project, my wife and I are tracking the
+                            expenses to raise our child to adulthood, 18.</p>
                         <p class="card-text">The RESTful API for costs to expect, the iOS app and website will consume
                             the data, costs to expect is recording the costs required to raise my child to the age of
                             18.</p>
@@ -94,8 +94,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.00.0<br/>
-                            <strong>Release date:</strong> 7th September 2018
+                        <small><strong>Latest release:</strong> v1.01.0<br/>
+                            <strong>Release date:</strong> 10th September 2018
                         </small>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                     <div class="card-body">
                         <h4 class="card-title" id="costs-to-expect-web-app">Costs to expect: Web App</a></h4>
                         <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
-                            the costs to raise a child to 18 years of age.</p>
+                            the expenses to raise our child to adulthood, 18.</p>
                         <p class="card-text">The prototype web app for Costs to Expect, exists to test a few ideas
                             before development of the iOS app begins.</p>
                         <a href="https://github.com/costs-to-expect/web-app"
@@ -355,7 +355,7 @@
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to expect: API</a></dt>
         <dd class="col-lg-4">
             <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
-                recording the costs required to raise my child to the age of 18.</p>
+                recording the expenses required to raise my child to the age of 18.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-web-app">Costs to expect: Web App</a></dt>
         <dd class="col-lg-4">
