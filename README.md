@@ -23,7 +23,7 @@ development, this app does not do anything other than echo phpinfo() it is simpl
 
 ## Projects
 
-* Costs to Expect - Tracking the costs to raise a child to 18.
+* Costs to Expect - Tracking the expenses to raise a child to 18.
 * Dlayer vNext - Migration project to ZF3.
 * Dlayer - Responsive web development.
 * View helpers - Custom view helpers for the Dlayer project
