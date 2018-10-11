@@ -94,8 +94,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.04.1<br/>
-                            <strong>Release date:</strong> 8th October 2018
+                        <small><strong>Latest release:</strong> v1.04.2<br/>
+                            <strong>Release date:</strong> 11th October 2018
                         </small>
                     </div>
                 </div>
