@@ -89,13 +89,13 @@
                             18.</p>
                         <a href="https://github.com/costs-to-expect/api"
                            class="btn btn-outline-primary">GitHub</a>
-                        <a href="https://github.com/costs-to-expect/api/blob/master/README.md" class="btn btn-outline-secondary">Overview</a>
+                        <a href="https://api.costs-to-expect.com" class="btn btn-outline-secondary">API</a>
                         <a href="https://github.com/costs-to-expect/api/blob/master/CHANGELOG.md"
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.04.2<br/>
-                            <strong>Release date:</strong> 11th October 2018
+                        <small><strong>Latest release:</strong> v1.04.3<br/>
+                            <strong>Release date:</strong> 14th October 2018
                         </small>
                     </div>
                 </div>
