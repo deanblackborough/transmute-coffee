@@ -23,7 +23,26 @@ development, this app does not do anything other than echo phpinfo() it is simpl
 
 ## Projects
 
-* Costs to Expect - Tracking the expenses to raise a child to 18.
+### Costs to Expect
+
+What does it costs to raise a child in the UK?
+
+Costs to Expect is a long-term project, my wife and I are tracking the expenses to raise our child to 
+adulthood, 18.
+
+#### Costs to Expect API
+
+The open RESTful API for costs to expect, the website will consume the data, the iOS app and Web App are initially for entering data.
+
+#### Costs to Expect Web app
+
+Prototype for the iOS app, testing different designs, seeing which is the best fit for my wife.
+
+### Dlayer
+
 * Dlayer vNext - Migration project to ZF3.
 * Dlayer - Responsive web development.
+
+### General
+
 * View helpers - Custom view helpers for the Dlayer project
