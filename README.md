@@ -3,7 +3,8 @@
 
 # Transmute Coffee
 
-The transmute coffee website, this site gives an overview of each of my Open Source libraries and long term development projects.
+The transmute coffee website, this site gives an overview of each of my Open Source libraries as well as my short and
+long term development projects.
 
 ## Libraries
 
@@ -37,6 +38,10 @@ The open RESTful API for costs to expect, the website will consume the data, the
 #### Costs to Expect Web app
 
 Prototype for the iOS app, testing different designs, seeing which is the best fit for my wife.
+
+### Holiday Expenses
+
+Small app to interact with my Costs to Expect API to track holiday expenses.
 
 ### Dlayer
 

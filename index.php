@@ -94,8 +94,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.09.2<br/>
-                            <strong>Release date:</strong> 14th November 2018
+                        <small><strong>Latest release:</strong> v1.09.3<br/>
+                            <strong>Release date:</strong> 18th November 2018
                         </small>
                     </div>
                 </div>
@@ -234,7 +234,32 @@
                 </div>
             </div>
 
-            <hr/>
+            <hr />
+
+            <h2>Personal projects</h2>
+
+            <p>Small personal projects.</p>
+
+            <div class="card-deck mb-4">
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="holiday-expenses">Holiday Expenses</h4>
+                        <p class="card-text">Small app to interact with my Costs to Expect API to track holiday expenses.</p>
+                        <a href="https://github.com/deanblackborough/holiday-expenses"
+                           class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/deanblackborough/holiday-expenses/blob/master/README.md"
+                           class="btn btn-outline-secondary">Overview</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> v1.00.0<br/>
+                            <strong>Release date:</strong> 15th November 2018
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
 
             <h2>Zend framework</h2>
 
@@ -392,6 +417,10 @@
             <p>Bootstrap to help with the setup of a PHP/MySQL web app using Docker for local development,
                 this app does not do anything other than echo phpinfo() it is simply a starting point for
                 your development.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="#holiday-expenses">Holiday Expenses</a></dt>
+        <dd class="col-lg-4">
+            <p>Small app to interact with my Costs to Expect API to track holiday expenses.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="#Zend-Framework-3-View-Helpers">Zend Framework 3 View Helpers</a></dt>
         <dd class="col-lg-4">

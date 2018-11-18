@@ -2,6 +2,11 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.53.0 - New release - 2018-11-18
+
+* New release, Costs to Expect API, v1.09.3.
+* New release, Holiday Expenses Web App, v1.00.0.
+
 ## v1.52.0 - New release - 2018-11-14
 
 * New release, Costs to Expect API, v1.09.2.
