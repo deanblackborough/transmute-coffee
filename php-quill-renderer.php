@@ -135,10 +135,6 @@ echo $result;</pre>
 
             <form action="/php-quill-renderer.php#demo" method="post" class="demo">
                 <input type="hidden" id="quill-editor-input" name="quill-editor-input" />
-
-                <div class="form-group">
-                    <div id="quill-editor"></div>
-                </div>
                 <div class="form-group row">
                     <label for="format" class="col-2 col-form-label">Convert... </label>
                     <select name="quill-editor-format" title="Select output format" class="form-control col-2">
@@ -146,6 +142,9 @@ echo $result;</pre>
                         <option value="Markdown"<?php if(isset($_POST['quill-editor-format']) && trim($_POST['quill-editor-format']) === 'Markdown') { echo  " selected=\"selected\""; } ?>>to Markdown</option>
                         <option value="GithubMarkdown"<?php if(isset($_POST['quill-editor-format']) && trim($_POST['quill-editor-format']) === 'GithubMarkdown') { echo  " selected=\"selected\""; } ?>>to Markdown (GitHub flavour)</option>
                     </select>
+                </div>
+                <div class="form-group">
+                    <div id="quill-editor"></div>
                 </div>
                 <input type="submit" name="submit" value="Parse" class="btn btn-primary" />
             </form>

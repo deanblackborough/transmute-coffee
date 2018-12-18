@@ -2,6 +2,11 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.55.0 - New release - 2018-12-18
+
+* Moved the output selector above the Quill editor.
+* Added a min height to the Quill editor.
+
 ## v1.54.0 - New release - 2018-11-20
 
 * New release, Costs to Expect Web App, v1.03.1..
