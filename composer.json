@@ -1,6 +1,6 @@
 {
     "name": "deanblackborough/transmute-coffee",
-    "description": "Website for my Packagist packages",
+    "description": "Website for my projects and Open Source libraries",
     "homepage": "https://www.transmute-coffee.com",
     "authors": [
         {
@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.2",
         "deanblackborough/php-quill-renderer": "^3",
         "deanblackborough/random-grab-bag": "^0",
         "deanblackborough/zf3-view-helpers": "^1",
