@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b68a430bc6a62578b8ab1e1fc7b49af",
+    "content-hash": "378d9dd4ea7569480e048debfbe3ee17",
     "packages": [
         {
             "name": "deanblackborough/bootstrap-4-helpers",
@@ -57,19 +57,20 @@
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.15.0",
+            "version": "v3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "edf8221aadecc0082e573084b515044d1175cd9f"
+                "reference": "68cb793d838ec0b641d7bbdaf170abd30721d89a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/edf8221aadecc0082e573084b515044d1175cd9f",
-                "reference": "edf8221aadecc0082e573084b515044d1175cd9f",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/68cb793d838ec0b641d7bbdaf170abd30721d89a",
+                "reference": "68cb793d838ec0b641d7bbdaf170abd30721d89a",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "php": "^7.1"
             },
             "require-dev": {
@@ -95,7 +96,7 @@
                     "email": "dean@g3d-development.com"
                 }
             ],
-            "description": "Render quill insert deltas to HTML, Markdown and GitHub flavoured Markdown ",
+            "description": "Render quill insert deltas to HTML, Markdown and GitHub flavoured Markdown",
             "homepage": "http://www.transmute-coffee.com/php-quill-renderer.php",
             "keywords": [
                 "delta",
@@ -107,7 +108,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2018-10-25T22:29:44+00:00"
+            "time": "2019-03-01T00:10:48+00:00"
         },
         {
             "name": "deanblackborough/random-grab-bag",
@@ -550,7 +551,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1"
+        "php": "^7.2"
     },
     "platform-dev": []
 }
