@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "378d9dd4ea7569480e048debfbe3ee17",
+    "content-hash": "daceef41636e5e95c564db3731f780a8",
     "packages": [
         {
             "name": "deanblackborough/bootstrap-4-helpers",
@@ -57,16 +57,16 @@
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.16.0",
+            "version": "v3.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "68cb793d838ec0b641d7bbdaf170abd30721d89a"
+                "reference": "859bd4318a99624a066c02948696c4bed5f49c28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/68cb793d838ec0b641d7bbdaf170abd30721d89a",
-                "reference": "68cb793d838ec0b641d7bbdaf170abd30721d89a",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/859bd4318a99624a066c02948696c4bed5f49c28",
+                "reference": "859bd4318a99624a066c02948696c4bed5f49c28",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2019-03-01T00:10:48+00:00"
+            "time": "2019-03-04T23:52:10+00:00"
         },
         {
             "name": "deanblackborough/random-grab-bag",
