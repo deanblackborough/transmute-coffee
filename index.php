@@ -160,7 +160,7 @@
                     </div>
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> v3.17.2<br/>
-                            <strong>Release date:</strong> 28th February 2019
+                            <strong>Release date:</strong> 8th March 2019
                         </small>
                     </div>
                 </div>
