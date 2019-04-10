@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "bb4c7b763935bf607ab160089dda8cb4",
     "content-hash": "daceef41636e5e95c564db3731f780a8",
     "packages": [
         {
@@ -53,20 +54,20 @@
                 "component",
                 "helper"
             ],
-            "time": "2018-01-21T16:36:47+00:00"
+            "time": "2018-01-21 16:36:47"
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.17.0",
+            "version": "v3.17.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "859bd4318a99624a066c02948696c4bed5f49c28"
+                "reference": "adfcfc97b5ca29082cdaaabd03871eda329e1fd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/859bd4318a99624a066c02948696c4bed5f49c28",
-                "reference": "859bd4318a99624a066c02948696c4bed5f49c28",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/adfcfc97b5ca29082cdaaabd03871eda329e1fd9",
+                "reference": "adfcfc97b5ca29082cdaaabd03871eda329e1fd9",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +109,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2019-03-04T23:52:10+00:00"
+            "time": "2019-04-10 12:58:57"
         },
         {
             "name": "deanblackborough/random-grab-bag",
@@ -153,7 +154,7 @@
                 "image-crop",
                 "image-resize"
             ],
-            "time": "2017-12-10T02:15:23+00:00"
+            "time": "2017-12-10 02:15:23"
         },
         {
             "name": "deanblackborough/zf3-view-helpers",
@@ -207,7 +208,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2018-05-15T23:31:38+00:00"
+            "time": "2018-05-15 23:31:38"
         },
         {
             "name": "deanblackborough/zf3-view-helpers-code-completion",
@@ -259,7 +260,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2018-01-20T22:10:13+00:00"
+            "time": "2018-01-20 22:10:13"
         },
         {
             "name": "zendframework/zend-eventmanager",
@@ -313,7 +314,7 @@
                 "events",
                 "zf2"
             ],
-            "time": "2018-04-25T15:33:34+00:00"
+            "time": "2018-04-25 15:33:34"
         },
         {
             "name": "zendframework/zend-json",
@@ -363,7 +364,7 @@
                 "json",
                 "zf"
             ],
-            "time": "2018-01-04T17:51:34+00:00"
+            "time": "2018-01-04 17:51:34"
         },
         {
             "name": "zendframework/zend-loader",
@@ -408,7 +409,7 @@
                 "loader",
                 "zf"
             ],
-            "time": "2018-04-30T15:20:54+00:00"
+            "time": "2018-04-30 15:20:54"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -454,7 +455,7 @@
                 "stdlib",
                 "zf"
             ],
-            "time": "2018-08-28T21:34:05+00:00"
+            "time": "2018-08-28 21:34:05"
         },
         {
             "name": "zendframework/zend-view",
@@ -541,7 +542,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2019-02-19T17:40:15+00:00"
+            "time": "2019-02-19 17:40:15"
         }
     ],
     "packages-dev": [],
