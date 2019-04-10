@@ -58,16 +58,16 @@
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.17.3",
+            "version": "v3.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "adfcfc97b5ca29082cdaaabd03871eda329e1fd9"
+                "reference": "56bfdbcf46910d298ce206b9ff11280075038943"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/adfcfc97b5ca29082cdaaabd03871eda329e1fd9",
-                "reference": "adfcfc97b5ca29082cdaaabd03871eda329e1fd9",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/56bfdbcf46910d298ce206b9ff11280075038943",
+                "reference": "56bfdbcf46910d298ce206b9ff11280075038943",
                 "shasum": ""
             },
             "require": {
