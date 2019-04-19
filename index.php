@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="https://github.com/costs-to-expect">Costs to expect</a>
+                <a class="nav-link" href="https://www.costs-to-expect.com">Costs to Expect</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>
@@ -85,8 +85,8 @@
                         <p class="card-text">Costs to Expect is a long-term project, my wife and I are tracking the
                             expenses to raise our child to adulthood, 18.</p>
                         <p class="card-text">The RESTful API for costs to expect, the iOS app and website will consume
-                            the data, costs to expect is recording the costs required to raise my child to the age of
-                            18.</p>
+                            the data. Costs to Expect is recording the costs required to raise my child to the age of
+                            18, later the API will to support the new website requirements.</p>
                         <a href="https://github.com/costs-to-expect/api"
                            class="btn btn-outline-primary">GitHub</a>
                         <a href="https://api.costs-to-expect.com" class="btn btn-outline-secondary">API</a>
@@ -94,46 +94,28 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.12.0<br/>
-                            <strong>Release date:</strong> 10th April 2019
+                        <small><strong>Latest release:</strong> v1.13.0<br/>
+                            <strong>Release date:</strong> 17th April 2019
                         </small>
                     </div>
                 </div>
 
                 <div class="card text-white bg-dark">
-                    <div class="card-header">Project/Web App</div>
+                    <div class="card-header">Project/Web service</div>
                     <div class="card-body">
-                        <h4 class="card-title" id="costs-to-expect-web-app">Costs to expect: Web App</a></h4>
+                        <h4 class="card-title" id="costs-to-expect">Costs to expect: Web service</a></h4>
                         <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
                             the expenses to raise our child to adulthood, 18.</p>
-                        <p class="card-text">The prototype web app for Costs to Expect, exists to test a few ideas
-                            before development of the iOS app begins.</p>
-                        <a href="https://github.com/costs-to-expect/web-app"
-                           class="btn btn-outline-primary">GitHub</a>
-                        <a href="https://github.com/costs-to-expect/web-app/blob/master/README.md" class="btn btn-outline-secondary">Overview</a>
-                        <a href="https://github.com/costs-to-expect/web-app/blob/master/CHANGELOG.md"
-                           class="btn btn-outline-secondary">Changelog</a>
+                        <p class="card-text">The Costs to Expect website will initially show the costs to raise
+                            our child to adulthood, an extended web service is in development, details will be
+                            provided when appropriate.</p>
+                        <a href="https://www.costs-to-expect.com"
+                            class="btn btn-outline-primary">Website</a>
+                        <!--<a href="https://github.com/costs-to-expect/web-app/blob/master/CHANGELOG.md"
+                           class="btn btn-outline-secondary">Changelog</a>-->
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.03.1<br/>
-                            <strong>Release date:</strong> 20th November 2018
-                        </small>
-                    </div>
-                </div>
-
-                <div class="card text-white bg-dark">
-                    <div class="card-header">Project/Dlayer</div>
-                    <div class="card-body">
-                        <h4 class="card-title" id="dlayer-v3">Dlayer - v3</a></h4>
-                        <p class="card-text">Dlayer is a collection of web tools, this WIP project is a
-                            rework of the original <a href="#Dlayer">Dlayer</a> project and conversion from ZF to Laravel.</p>
-                        <a href="https://github.com/Dlayer/dlayer-v3"
-                           class="btn btn-outline-primary">GitHub</a>
-                        <a href="https://github.com/Dlayer/dlayer-v3/blob/master/README.md"
-                           class="btn btn-outline-secondary">Overview</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> None<br/>
+                        <small><strong>Latest release:</strong> In development<br/>
                             <strong>Release date:</strong> In development
                         </small>
                     </div>
@@ -382,10 +364,9 @@
             <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
                 recording the expenses required to raise my child to the age of 18.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-web-app">Costs to expect: Web App</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect">Costs to expect: Web service</a></dt>
         <dd class="col-lg-4">
-            <p>The prototype web app for Costs to Expect, exists to test a few ideas before development of the
-                iOS app begins.</p>
+            <p>The website for the Costs to Expect Web service.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
         <dd class="col-lg-4">

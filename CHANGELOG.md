@@ -2,6 +2,12 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.59.0 - New releases - 2019-04-19
+
+* Added Costs to Expect Web service.
+* New release, Costs to Expect API, v1.13.0.
+* Removed Dlayer v3.
+
 ## v1.58.0 - New releases - 2019-04-10
 
 * New release, PHP Quill Renderer. v3.17.3.
