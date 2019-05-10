@@ -111,12 +111,12 @@
                             provided when appropriate.</p>
                         <a href="https://www.costs-to-expect.com"
                             class="btn btn-outline-primary">Website</a>
-                        <!--<a href="https://github.com/costs-to-expect/web-app/blob/master/CHANGELOG.md"
-                           class="btn btn-outline-secondary">Changelog</a>-->
+                        <a href="https://www.costs-to-expect.com/changelog"
+                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.01.0<br/>
-                            <strong>Release date:</strong> 27th April 2019
+                        <small><strong>Latest release:</strong> v1.02.0<br/>
+                            <strong>Release date:</strong> 9th April 2019
                         </small>
                     </div>
                 </div>

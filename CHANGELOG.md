@@ -2,6 +2,10 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.61.0 - New release - 2019-05-10
+
+* New release, Costs to Expect Website, v1.02.0.
+
 ## v1.60.0 - New releases - 2019-05-01
 
 * New release, PHP Quill Renderer. v3.17.4.
