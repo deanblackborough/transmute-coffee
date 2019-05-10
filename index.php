@@ -116,7 +116,7 @@
                     </div>
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> v1.02.0<br/>
-                            <strong>Release date:</strong> 9th April 2019
+                            <strong>Release date:</strong> 9th May 2019
                         </small>
                     </div>
                 </div>
