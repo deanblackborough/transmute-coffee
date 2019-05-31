@@ -94,8 +94,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.14.1<br/>
-                            <strong>Release date:</strong> 1st May 2019
+                        <small><strong>Latest release:</strong> v1.14.2<br/>
+                            <strong>Release date:</strong> 31st May 2019
                         </small>
                     </div>
                 </div>
@@ -115,8 +115,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.02.0<br/>
-                            <strong>Release date:</strong> 9th May 2019
+                        <small><strong>Latest release:</strong> v1.03.1<br/>
+                            <strong>Release date:</strong> 29th May 2019
                         </small>
                     </div>
                 </div>
@@ -236,6 +236,25 @@
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> v1.00.0<br/>
                             <strong>Release date:</strong> 15th November 2018
+                        </small>
+                    </div>
+                </div>
+
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="costs-to-expect-legacy">Costs to Expect initial data collector</h4>
+                        <p class="card-text">Legacy app to allow expenses to be entered into the Costs to Expect API.</p>
+                        <a href="https://github.com/costs-to-expect/web-app"
+                           class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/costs-to-expect/web-app/blob/master/README.md"
+                           class="btn btn-outline-secondary">Overview</a>
+                        <a href="https://github.com/costs-to-expect/web-app/blob/master/CHANGELOG.md"
+                           class="btn btn-outline-secondary">Changelog</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> v1.04.3<br/>
+                            <strong>Release date:</strong> 29th May 2019
                         </small>
                     </div>
                 </div>
@@ -402,6 +421,10 @@
         <dt class="col-lg-2 offset-lg-3"><a href="#holiday-expenses">Holiday Expenses</a></dt>
         <dd class="col-lg-4">
             <p>Small app to interact with my Costs to Expect API to track holiday expenses.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="#costs-to-expect-legacy">Costs To Expect data recorder</a></dt>
+        <dd class="col-lg-4">
+            <p>Legacy app to allow expenses to be entered into the Costs to Expect API.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="#Zend-Framework-3-View-Helpers">Zend Framework 3 View Helpers</a></dt>
         <dd class="col-lg-4">
