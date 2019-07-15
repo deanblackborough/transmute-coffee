@@ -2,6 +2,11 @@
 
 Full changelog for the Transmute Coffee website.
 
+## v1.69.0 - New release - 2019-07-15
+
+* Tweak to Docker setup.
+* New release, Laravel view helpers, v1.00.0.
+
 ## v1.68.0 - New release - 2019-07-10
 
 * New release, Costs to Expect API, v1.16.1.

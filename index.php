@@ -150,6 +150,30 @@
                 <div class="card text-white bg-dark">
                     <div class="card-header">Library</div>
                     <div class="card-body">
+                        <h4 class="card-title" id="Laravel-view-helpers">Laravel view helpers</h4>
+                        <p class="card-text">A growing collection of general and bootstrap specific view helpers for use in
+                            Laravel blades.</p>
+
+                        <ul>
+                            <li>Pagination</li>
+                        </ul>
+                        <a href="https://github.com/deanblackborough/laravel-view-helpers" class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/deanblackborough/laravel-view-helpers/blob/master/README.md"
+                           class="btn btn-outline-secondary">Overview</a>
+                        <a href="https://github.com/deanblackborough/laravel-view-helpers/blob/master/CHANGELOG.md"
+                           class="btn btn-outline-secondary">Changelog</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> v1.00.0<br/>
+                            <strong>Release date:</strong> 14th July 2019
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck mb-4">
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Library</div>
+                    <div class="card-body">
                         <h4 class="card-title" id="Bootstrap-4-helpers">Bootstrap 4 helpers</h4>
                         <p class="card-text">Utility wrapper classes for the Bootstrap 4 view helpers in my
                             <a href="https://github.com/deanblackborough/zf3-view-helpers">ZF3-view-helpers library</a>,
@@ -164,31 +188,6 @@
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> v0.04<br/>
                             <strong>Release date:</strong> 21st January 2018
-                        </small>
-                    </div>
-                </div>
-            </div>
-            <div class="card-deck mb-4">
-                <div class="card text-white bg-dark">
-                    <div class="card-header">Library</div>
-                    <div class="card-body">
-                        <h4 class="card-title" id="Random-Grab-Bag">Random Grab Bag</h4>
-                        <p class="card-text">A bunch of utility classes that don't currently deserve their own
-                            package.</p>
-
-                        <ul>
-                            <li>Image resizer</li>
-                            <li>Excel parser</li>
-                        </ul>
-                        <a href="https://github.com/deanblackborough/random-grab-bag" class="btn btn-outline-primary">GitHub</a>
-                        <a href="https://github.com/deanblackborough/random-grab-bag/blob/master/README.md"
-                           class="btn btn-outline-secondary">Overview</a>
-                        <a href="https://github.com/deanblackborough/random-grab-bag/blob/master/CHANGELOG.md"
-                           class="btn btn-outline-secondary">Changelog</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v0.06<br/>
-                            <strong>Release date:</strong> 20th June 2017
                         </small>
                     </div>
                 </div>
@@ -211,6 +210,32 @@
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> v0.01<br/>
                             <strong>Release date:</strong> 22nd April 2018
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck mb-4">
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Library</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="Random-Grab-Bag">Random Grab Bag</h4>
+                        <p class="card-text">A bunch of utility classes that don't currently deserve their own
+                            package.</p>
+
+                        <ul>
+                            <li>Image resizer</li>
+                            <li>Excel parser</li>
+                        </ul>
+                        <a href="https://github.com/deanblackborough/random-grab-bag" class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/deanblackborough/random-grab-bag/blob/master/README.md"
+                           class="btn btn-outline-secondary">Overview</a>
+                        <a href="https://github.com/deanblackborough/random-grab-bag/blob/master/CHANGELOG.md"
+                           class="btn btn-outline-secondary">Changelog</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> v0.06<br/>
+                            <strong>Release date:</strong> 20th June 2017
                         </small>
                     </div>
                 </div>
@@ -398,10 +423,24 @@
                 the table in the README, the goal is to eventually support every Quill feature and add
                 additional parsers, Markdown?</p>
         </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Laravel-view-helpers">Laravel view helpers</a></dt>
+        <dd class="col-lg-4">
+            <p>A growing collection of general and bootstrap specific view helpers for use in Laravel blades.</p>
+            <ul>
+                <li>Pagination</li>
+            </ul>
+        </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="#Bootstrap-4-helpers">Bootstrap 4 helpers</a></dt>
         <dd class="col-lg-4">
             <p>Utility wrapper classes for the Bootstrap 4 view helpers in my ZF3-view-helpers library,
                 allows usage of the view helpers in any PHP site, not just Zend Framework apps.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="#Quick-start-for-a-PHP-MySQL-web-app">Quick start for a PHP/MySQL web
+            app</a></dt>
+        <dd class="col-lg-4">
+            <p>Bootstrap to help with the setup of a PHP/MySQL web app using Docker for local development,
+                this app does not do anything other than echo phpinfo() it is simply a starting point for
+                your development.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="#Random-Grab-Bag">Random Grab Bag</a></dt>
         <dd class="col-lg-4">
@@ -410,13 +449,6 @@
                 <li>Image resizer</li>
                 <li>Excel parser</li>
             </ul>
-        </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="#Quick-start-for-a-PHP-MySQL-web-app">Quick start for a PHP/MySQL web
-            app</a></dt>
-        <dd class="col-lg-4">
-            <p>Bootstrap to help with the setup of a PHP/MySQL web app using Docker for local development,
-                this app does not do anything other than echo phpinfo() it is simply a starting point for
-                your development.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="#holiday-expenses">Holiday Expenses</a></dt>
         <dd class="col-lg-4">
