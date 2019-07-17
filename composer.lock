@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "daceef41636e5e95c564db3731f780a8",
+    "content-hash": "9b15f58557fb844f650b154264b1d3c8",
     "packages": [
         {
             "name": "deanblackborough/bootstrap-4-helpers",
@@ -54,6 +54,51 @@
                 "helper"
             ],
             "time": "2018-01-21T16:36:47+00:00"
+        },
+        {
+            "name": "deanblackborough/laravel-view-helpers",
+            "version": "v1.00.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deanblackborough/laravel-view-helpers.git",
+                "reference": "45c6f5735fa8a089423d96354b1fdeeab2445ee1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deanblackborough/laravel-view-helpers/zipball/45c6f5735fa8a089423d96354b1fdeeab2445ee1",
+                "reference": "45c6f5735fa8a089423d96354b1fdeeab2445ee1",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "DBlackborough\\ViewHelpers\\ViewHelpersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DBlackborough\\ViewHelpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dean Blackborough",
+                    "email": "dean@g3d-development.com"
+                }
+            ],
+            "description": "Collection of general and bootstrap specific view helpers for use in Laravel blade files",
+            "keywords": [
+                "blade view helpers",
+                "bootstrap",
+                "laravel"
+            ],
+            "time": "2019-07-13T23:46:08+00:00"
         },
         {
             "name": "deanblackborough/php-quill-renderer",
