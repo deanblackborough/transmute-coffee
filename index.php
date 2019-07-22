@@ -94,8 +94,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.16.3<br/>
-                            <strong>Release date:</strong> 17th July 2019
+                        <small><strong>Latest release:</strong> v1.16.4<br/>
+                            <strong>Release date:</strong> 22nd July 2019
                         </small>
                     </div>
                 </div>
@@ -115,8 +115,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.07.1<br/>
-                            <strong>Release date:</strong> 18th July 2019
+                        <small><strong>Latest release:</strong> v1.08.0<br/>
+                            <strong>Release date:</strong> 23rd July 2019
                         </small>
                     </div>
                 </div>
@@ -164,8 +164,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.00.0<br/>
-                            <strong>Release date:</strong> 14th July 2019
+                        <small><strong>Latest release:</strong> v1.00.2<br/>
+                            <strong>Release date:</strong> 20th July 2019
                         </small>
                     </div>
                 </div>
