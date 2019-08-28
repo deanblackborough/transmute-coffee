@@ -81,7 +81,7 @@
                 <div class="card text-white bg-dark">
                     <div class="card-header">Project/API</div>
                     <div class="card-body">
-                        <h4 class="card-title" id="costs-to-expect-api">Costs to expect: API</a></h4>
+                        <h4 class="card-title" id="costs-to-expect-api">Costs to Expect: The API</a></h4>
                         <p class="card-text">Costs to Expect is a long-term project, my wife and I are tracking the
                             expenses to raise our child to adulthood, 18.</p>
                         <p class="card-text">The RESTful API for costs to expect, the iOS app and website will consume
@@ -94,8 +94,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.19.1<br/>
-                            <strong>Release date:</strong> 9th August 2019
+                        <small><strong>Latest release:</strong> v1.22.0<br/>
+                            <strong>Release date:</strong> 25th August 2019
                         </small>
                     </div>
                 </div>
@@ -103,20 +103,22 @@
                 <div class="card text-white bg-dark">
                     <div class="card-header">Project/Web service</div>
                     <div class="card-body">
-                        <h4 class="card-title" id="costs-to-expect">Costs to expect: Web service</a></h4>
+                        <h4 class="card-title" id="costs-to-expect">Costs to Expect: The Website</a></h4>
                         <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
                             the expenses to raise our child to adulthood, 18.</p>
                         <p class="card-text">The Costs to Expect website will initially show the costs to raise
                             our child to adulthood, an extended web service is in development, details will be
                             provided when appropriate.</p>
+                        <a href="https://github.com/costs-to-expect/website"
+                           class="btn btn-outline-primary">GitHub</a>
                         <a href="https://www.costs-to-expect.com"
-                            class="btn btn-outline-primary">Website</a>
+                            class="btn btn-outline-secondary">Website</a>
                         <a href="https://www.costs-to-expect.com/changelog"
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.09.1<br/>
-                            <strong>Release date:</strong> 9th August 2019
+                        <small><strong>Latest release:</strong> v1.10.0<br/>
+                            <strong>Release date:</strong> 27th August 2019
                         </small>
                     </div>
                 </div>
@@ -403,12 +405,12 @@
 </div>
 <div class="footer bg-dark text-light">
     <dl class="row">
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to expect: API</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to Expect: The API</a></dt>
         <dd class="col-lg-4">
             <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
                 recording the expenses required to raise my child to the age of 18.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect">Costs to expect: Web service</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect">Costs to Expect: The Website</a></dt>
         <dd class="col-lg-4">
             <p>The website for the Costs to Expect Web service.</p>
         </dd>

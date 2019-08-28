@@ -198,14 +198,19 @@ echo $result;</pre>
 </div>
 <div class="footer bg-dark text-light">
     <dl class="row">
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to expect: API</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to Expect: The API</a></dt>
         <dd class="col-lg-4">
             <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
                 recording the expenses required to raise my child to the age of 18.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect">Costs to expect: Web service</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect">Costs to Expect: The Website</a></dt>
         <dd class="col-lg-4">
             <p>The website for the Costs to Expect Web service.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
+        <dd class="col-lg-4">
+            <p>Dlayer is a collection of web tools, extension of the original Dlayer, this project is a rework of the
+                original Dlayer project.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">
@@ -213,12 +218,26 @@ echo $result;</pre>
                 the table in the README, the goal is to eventually support every Quill feature and add
                 additional parsers, Markdown?</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Bootstrap-4-helpers">Bootstrap 4 helpers</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Laravel-view-helpers">Laravel view helpers</a></dt>
+        <dd class="col-lg-4">
+            <p>A growing collection of general and bootstrap specific view helpers for use in Laravel blades.</p>
+            <ul>
+                <li>Pagination</li>
+            </ul>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="#Bootstrap-4-helpers">Bootstrap 4 helpers</a></dt>
         <dd class="col-lg-4">
             <p>Utility wrapper classes for the Bootstrap 4 view helpers in my ZF3-view-helpers library,
                 allows usage of the view helpers in any PHP site, not just Zend Framework apps.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Random-Grab-Bag">Random Grab Bag</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="#Quick-start-for-a-PHP-MySQL-web-app">Quick start for a PHP/MySQL web
+            app</a></dt>
+        <dd class="col-lg-4">
+            <p>Bootstrap to help with the setup of a PHP/MySQL web app using Docker for local development,
+                this app does not do anything other than echo phpinfo() it is simply a starting point for
+                your development.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="#Random-Grab-Bag">Random Grab Bag</a></dt>
         <dd class="col-lg-4">
             <p>A bunch of utility classes that don't currently deserve their own package.</p>
             <ul>
@@ -226,35 +245,36 @@ echo $result;</pre>
                 <li>Excel parser</li>
             </ul>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Quick-start-for-a-PHP-MySQL-web-app">Quick start for a PHP/MySQL web
-            app</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="#holiday-expenses">Holiday Expenses</a></dt>
         <dd class="col-lg-4">
-            <p>Bootstrap to help with the setup of a PHP/MySQL web app using Docker for local development,
-                this app does not do anything other than echo phpinfo() it is simply a starting point for
-                your development.</p>
+            <p>Small app to interact with my Costs to Expect API to track holiday expenses.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Zend-Framework-3-View-Helpers">Zend Framework 3 View Helpers</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="#costs-to-expect-legacy">Costs To Expect data recorder</a></dt>
+        <dd class="col-lg-4">
+            <p>Legacy app to allow expenses to be entered into the Costs to Expect API.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="#Zend-Framework-3-View-Helpers">Zend Framework 3 View Helpers</a></dt>
         <dd class="col-lg-4">
             <p>A collection of Zend Framework 3 view helpers, primarily focused on Bootstrap 3 and 4, the plan
                 is to add support for every component within Bootstrap 4 and work from there.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Zend-Framework-3-View-Helpers-Code-Completion">Zend Framework 3 View
+        <dt class="col-lg-2 offset-lg-3"><a href="#Zend-Framework-3-View-Helpers-Code-Completion">Zend Framework 3 View
             Helpers Code Completion</a></dt>
         <dd class="col-lg-4">
             <p>Do you like using view helpers? If the answer is yes, you will have noticed there is no code
                 completion for them in your IDE, the classes in this package will solve that problem.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Dlayer-v-Next">Dlayer v Next: migration to Zend Framework 3</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="#Dlayer-v-Next">Dlayer v Next: migration to Zend Framework 3</a></dt>
         <dd class="col-lg-4">
             <p>Dlayer is an Open Source responsive web development tool aimed primarily at users with limited
                 web design or development experience.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Dlayer">Dlayer: Responsive web development</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="#Dlayer">Dlayer: Responsive web development</a></dt>
         <dd class="col-lg-4">
             <p>Dlayer is an Open Source responsive web development tool aimed primarily at users with limited
                 web design or development experience.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#Dlayer-View-helpers">Dlayer: View helpers</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="#Dlayer-View-helpers">Dlayer: View helpers</a></dt>
         <dd class="col-lg-4">
             <p>Custom ZF3 view helpers for Dlayer vNext, some of these view helpers may be useful in your
                 projects, they were created to solve problems within Dlayer vNext, they might be useful to you
