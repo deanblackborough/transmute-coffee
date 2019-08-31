@@ -33,7 +33,11 @@ adulthood, 18.
 
 #### Costs to Expect API
 
-The open RESTful API for costs to expect, the website will consume the data, the iOS app and Web App are initially for entering data.
+The open RESTful API for the Costs to Expect service.
+
+#### Costs to Expect Website
+
+Costs to Expect is a long-term project; my wife and I are tracking the expenses to raise our children to adulthood, 18.
 
 #### Costs to Expect Web app
 
