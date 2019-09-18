@@ -7,6 +7,12 @@ Full changelog for the Transmute Coffee website.
 * New release, Costs to Expect API, v1.23.0.
 * Updated FE dependencies.
 
+## v1.76.0 - New releases - 2019-09-18
+
+* New release, Costs to Expect API, v2.00.0.
+* New release, Costs to Expect Website, v1.10.2.
+* New release, Costs to Expect Web app, v1.04.6.
+
 ## v1.75.0 - New releases - 2019-08-31
 
 * New release, Costs to Expect API, v1.22.1.
