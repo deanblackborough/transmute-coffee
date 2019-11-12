@@ -82,11 +82,10 @@
                     <div class="card-header">Project/API</div>
                     <div class="card-body">
                         <h4 class="card-title" id="costs-to-expect-api">Costs to Expect: The API</a></h4>
-                        <p class="card-text">Costs to Expect is a long-term project, my wife and I are tracking the
-                            expenses to raise our child to adulthood, 18.</p>
-                        <p class="card-text">The RESTful API for costs to expect, the iOS app and website will consume
-                            the data. Costs to Expect is recording the costs required to raise my child to the age of
-                            18, later the API will to support the new website requirements.</p>
+                        <p class="card-text">Costs to Expect is a service that primarily focuses on providing tools for
+                            tracking and forecasting expenses.</p>
+                        <p class="card-text">The Open Source Restful API is the backbone of the service; it is available
+                            under the MIT license and drives the app and website.</p>
                         <a href="https://github.com/costs-to-expect/api"
                            class="btn btn-outline-primary">GitHub</a>
                         <a href="https://api.costs-to-expect.com" class="btn btn-outline-secondary">API</a>
@@ -94,8 +93,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.02.0<br/>
-                            <strong>Release date:</strong> 7th October 2019
+                        <small><strong>Latest release:</strong> v2.04.0<br/>
+                            <strong>Release date:</strong> 11th November 2019
                         </small>
                     </div>
                 </div>
@@ -107,7 +106,7 @@
                         <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
                             the expenses to raise our child to adulthood, 18.</p>
                         <p class="card-text">The Costs to Expect website will initially show the costs to raise
-                            our child to adulthood, an extended web service is in development, details will be
+                            our child to adulthood, an extended app is in development, details will be
                             provided when appropriate.</p>
                         <a href="https://github.com/costs-to-expect/website"
                            class="btn btn-outline-primary">GitHub</a>
