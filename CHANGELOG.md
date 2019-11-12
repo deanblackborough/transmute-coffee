@@ -2,9 +2,10 @@
 
 Full changelog for the Transmute Coffee website.
 
-## v1.89.0 - New release - 2019-11-12
+## v1.80.0 - New release - 2019-11-12
 
 * New release, Costs to Expect API, v2.04.0.
+* New release, Costs to Expect Website, v1.10.6.
 
 ## v1.79.0 - New releases - 2019-10-07
 
