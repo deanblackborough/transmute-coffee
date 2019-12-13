@@ -93,21 +93,20 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.04.0<br/>
-                            <strong>Release date:</strong> 11th November 2019
+                        <small><strong>Latest release:</strong> v2.04.1<br/>
+                            <strong>Release date:</strong> 12th December 2019
                         </small>
                     </div>
                 </div>
 
                 <div class="card text-white bg-dark">
-                    <div class="card-header">Project/Web service</div>
+                    <div class="card-header">Project/Website</div>
                     <div class="card-body">
                         <h4 class="card-title" id="costs-to-expect">Costs to Expect: The Website</a></h4>
                         <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
                             the expenses to raise our child to adulthood, 18.</p>
-                        <p class="card-text">The Costs to Expect website will initially show the costs to raise
-                            our child to adulthood, an extended app is in development, details will be
-                            provided when appropriate.</p>
+                        <p class="card-text">The Costs to Expect website will show the costs to raise
+                            our children to adulthood.</p>
                         <a href="https://github.com/costs-to-expect/website"
                            class="btn btn-outline-primary">GitHub</a>
                         <a href="https://www.costs-to-expect.com"
@@ -116,8 +115,29 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.10.6<br/>
-                            <strong>Release date:</strong> 12th November 2019
+                        <small><strong>Latest release:</strong> v1.10.7<br/>
+                            <strong>Release date:</strong> 12th December 2019
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck mb-4">
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project/Service</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="costs-to-expect-app">Costs to Expect: The app</a></h4>
+                        <p class="card-text">Costs to Expect is a service that primarily focuses on providing tools for
+                            tracking and forecasting expenses.</p>
+                        <p class="card-text">The app is the commercial part of the service, the alpha is in
+                            development and we hope to have a release ready soon.</p>
+                        <a href="https://app.costs-to-expect.com" class="btn btn-outline-secondary disabled">App</a>
+                        <!--<a href="https://github.com/costs-to-expect/api/blob/master/CHANGELOG.md"
+                           class="btn btn-outline-secondary">Changelog</a>-->
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> No official release yet<br/>
+                            <strong>Release date:</strong> Soon!
                         </small>
                     </div>
                 </div>
@@ -142,8 +162,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v3.17.4<br/>
-                            <strong>Release date:</strong> 1st May 2019
+                        <small><strong>Latest release:</strong> v3.18.1<br/>
+                            <strong>Release date:</strong> 10th December 2019
                         </small>
                     </div>
                 </div>

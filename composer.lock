@@ -57,16 +57,16 @@
         },
         {
             "name": "deanblackborough/laravel-view-helpers",
-            "version": "v1.00.1",
+            "version": "v1.00.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/laravel-view-helpers.git",
-                "reference": "45c6f5735fa8a089423d96354b1fdeeab2445ee1"
+                "reference": "056bf1fe27800ecee3438735541dfc2e1d7fc023"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/laravel-view-helpers/zipball/45c6f5735fa8a089423d96354b1fdeeab2445ee1",
-                "reference": "45c6f5735fa8a089423d96354b1fdeeab2445ee1",
+                "url": "https://api.github.com/repos/deanblackborough/laravel-view-helpers/zipball/056bf1fe27800ecee3438735541dfc2e1d7fc023",
+                "reference": "056bf1fe27800ecee3438735541dfc2e1d7fc023",
                 "shasum": ""
             },
             "type": "library",
@@ -98,20 +98,20 @@
                 "bootstrap",
                 "laravel"
             ],
-            "time": "2019-07-13T23:46:08+00:00"
+            "time": "2019-07-30T10:35:06+00:00"
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v3.17.4",
+            "version": "v3.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "78bb8bb80ca8d7f6613c7b41a6e1adf104e5c7da"
+                "reference": "11d3c7c0105a09ca007fc51925373ef5da168a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/78bb8bb80ca8d7f6613c7b41a6e1adf104e5c7da",
-                "reference": "78bb8bb80ca8d7f6613c7b41a6e1adf104e5c7da",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/11d3c7c0105a09ca007fc51925373ef5da168a9d",
+                "reference": "11d3c7c0105a09ca007fc51925373ef5da168a9d",
                 "shasum": ""
             },
             "require": {
@@ -153,7 +153,7 @@
                 "quilljs",
                 "renderer"
             ],
-            "time": "2019-05-01T11:36:31+00:00"
+            "time": "2019-12-10T22:44:21+00:00"
         },
         {
             "name": "deanblackborough/random-grab-bag",
@@ -362,16 +362,16 @@
         },
         {
             "name": "zendframework/zend-json",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-json.git",
-                "reference": "21c6027f3c4a5177cbef8ed08d1037b17188a0d8"
+                "reference": "e9ddb1192d93fe7fff846ac895249c39db75132b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-json/zipball/21c6027f3c4a5177cbef8ed08d1037b17188a0d8",
-                "reference": "21c6027f3c4a5177cbef8ed08d1037b17188a0d8",
+                "url": "https://api.github.com/repos/zendframework/zend-json/zipball/e9ddb1192d93fe7fff846ac895249c39db75132b",
+                "reference": "e9ddb1192d93fe7fff846ac895249c39db75132b",
                 "shasum": ""
             },
             "require": {
@@ -408,20 +408,20 @@
                 "json",
                 "zf"
             ],
-            "time": "2019-06-18T10:54:52+00:00"
+            "time": "2019-10-09T13:56:13+00:00"
         },
         {
             "name": "zendframework/zend-loader",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-loader.git",
-                "reference": "78f11749ea340f6ca316bca5958eef80b38f9b6c"
+                "reference": "91da574d29b58547385b2298c020b257310898c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/78f11749ea340f6ca316bca5958eef80b38f9b6c",
-                "reference": "78f11749ea340f6ca316bca5958eef80b38f9b6c",
+                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/91da574d29b58547385b2298c020b257310898c6",
+                "reference": "91da574d29b58547385b2298c020b257310898c6",
                 "shasum": ""
             },
             "require": {
@@ -453,7 +453,7 @@
                 "loader",
                 "zf"
             ],
-            "time": "2018-04-30T15:20:54+00:00"
+            "time": "2019-09-04T19:38:14+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -503,16 +503,16 @@
         },
         {
             "name": "zendframework/zend-view",
-            "version": "2.11.2",
+            "version": "2.11.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-view.git",
-                "reference": "4f5cb653ed4c64bb8d9bf05b294300feb00c67f2"
+                "reference": "a8b1b2d9b52e191539be861a6529f8c8a0c06b9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/4f5cb653ed4c64bb8d9bf05b294300feb00c67f2",
-                "reference": "4f5cb653ed4c64bb8d9bf05b294300feb00c67f2",
+                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/a8b1b2d9b52e191539be861a6529f8c8a0c06b9d",
+                "reference": "a8b1b2d9b52e191539be861a6529f8c8a0c06b9d",
                 "shasum": ""
             },
             "require": {
@@ -580,13 +580,13 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "provides a system of helpers, output filters, and variable escaping",
-            "homepage": "https://github.com/zendframework/zend-view",
+            "description": "Flexible view layer supporting and providing multiple view layers, helpers, and more",
             "keywords": [
+                "ZendFramework",
                 "view",
-                "zf2"
+                "zf"
             ],
-            "time": "2019-02-19T17:40:15+00:00"
+            "time": "2019-12-04T08:40:50+00:00"
         }
     ],
     "packages-dev": [],
