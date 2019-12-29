@@ -93,8 +93,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.04.1<br/>
-                            <strong>Release date:</strong> 12th December 2019
+                        <small><strong>Latest release:</strong> v2.05.0<br/>
+                            <strong>Release date:</strong> 28th December 2019
                         </small>
                     </div>
                 </div>
@@ -115,8 +115,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.10.7<br/>
-                            <strong>Release date:</strong> 12th December 2019
+                        <small><strong>Latest release:</strong> v1.10.8<br/>
+                            <strong>Release date:</strong> 17th December 2019
                         </small>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> No official release yet<br/>
-                            <strong>Release date:</strong> Soon!
+                            <strong>Release date:</strong> Approaching!
                         </small>
                     </div>
                 </div>
