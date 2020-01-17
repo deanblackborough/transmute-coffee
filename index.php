@@ -46,7 +46,7 @@
                 <a class="nav-link" href="https://www.deanblackborough.com">Dean Blackborough.com</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.g3d-development.com">G3D Development Limited</a>
+                <a class="nav-link" href="https://www.g3d-development.com">G3D Development</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/deanblackborough">GitHub</a>
@@ -103,10 +103,11 @@
                     <div class="card-header">Project/Website</div>
                     <div class="card-body">
                         <h4 class="card-title" id="costs-to-expect">Costs to Expect: The Website</a></h4>
-                        <p class="card-text">Costs to Expect is a long term project, my wife and I are tracking
+                        <p class="card-text">How much does it costs to raise a child in the UK?.
+                            Costs to Expect is a long term project, my wife and I are tracking
                             the expenses to raise our child to adulthood, 18.</p>
                         <p class="card-text">The Costs to Expect website will show the costs to raise
-                            our children to adulthood.</p>
+                            both our children (Jack and Niall) to adulthood.</p>
                         <a href="https://github.com/costs-to-expect/website"
                            class="btn btn-outline-primary">GitHub</a>
                         <a href="https://www.costs-to-expect.com"
@@ -115,8 +116,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.10.8<br/>
-                            <strong>Release date:</strong> 17th December 2019
+                        <small><strong>Latest release:</strong> v1.10.9<br/>
+                            <strong>Release date:</strong> 16th January 2019
                         </small>
                     </div>
                 </div>
@@ -130,10 +131,9 @@
                         <p class="card-text">Costs to Expect is a service that primarily focuses on providing tools for
                             tracking and forecasting expenses.</p>
                         <p class="card-text">The app is the commercial part of the service, the alpha is in
-                            development and we hope to have a release ready soon.</p>
-                        <a href="https://app.costs-to-expect.com" class="btn btn-outline-secondary disabled">App</a>
-                        <!--<a href="https://github.com/costs-to-expect/api/blob/master/CHANGELOG.md"
-                           class="btn btn-outline-secondary">Changelog</a>-->
+                            development and we hope to have a public beta ready soon(tm).</p>
+                        <a href="https://app.costs-to-expect.com" class="btn btn-outline-primary">App</a>
+                        <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> No official release yet<br/>

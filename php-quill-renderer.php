@@ -48,7 +48,7 @@
                 <a class="nav-link" href="https://www.deanblackborough.com">Dean Blackborough.com</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://www.g3d-development.com">G3D Development Limited</a>
+                <a class="nav-link" href="https://www.g3d-development.com">G3D Development</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/deanblackborough">GitHub</a>
