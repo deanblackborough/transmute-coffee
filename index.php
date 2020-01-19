@@ -94,7 +94,7 @@
                     </div>
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> v2.06.0<br/>
-                            <strong>Release date:</strong> 16th January 2020
+                            <strong>Release date:</strong> 18th January 2020
                         </small>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> v1.10.9<br/>
-                            <strong>Release date:</strong> 16th January 2019
+                            <strong>Release date:</strong> 16th January 2020
                         </small>
                     </div>
                 </div>
