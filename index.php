@@ -131,13 +131,13 @@
                         <p class="card-text">Costs to Expect is a service that primarily focuses on providing tools for
                             tracking and forecasting expenses.</p>
                         <p class="card-text">The app is the commercial part of the service, the alpha is in
-                            development and we hope to have a public beta ready soon(tm).</p>
+                            development and we hope to have a public alpha ready by April 2020.</p>
                         <a href="https://app.costs-to-expect.com" class="btn btn-outline-primary">App</a>
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> No official release yet<br/>
-                            <strong>Release date:</strong> Approaching!
+                        <small><strong>Latest release:</strong> v1.00.0<br/>
+                            <strong>Release date:</strong> 30th January 2020
                         </small>
                     </div>
                 </div>
