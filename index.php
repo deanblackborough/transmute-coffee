@@ -136,8 +136,8 @@
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.01.0<br/>
-                            <strong>Release date:</strong> 7th February 2020
+                        <small><strong>Latest release:</strong> v1.02.0<br/>
+                            <strong>Release date:</strong> 13th February 2020
                         </small>
                     </div>
                 </div>

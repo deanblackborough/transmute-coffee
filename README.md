@@ -26,22 +26,27 @@ development, this app does not do anything other than echo phpinfo() it is simpl
 
 ### Costs to Expect
 
-What does it cost to raise a child in the UK?
-
-Costs to Expect is a long-term project, my wife and I are tracking the expenses to raise our child to 
-adulthood, 18.
+Costs to Expect is a service focused on tracking and forecasting expenses. 
 
 #### Costs to Expect API
 
 The open RESTful API for the Costs to Expect service.
 
+#### Costs to Expect App
+
+The App is the commercial offering of Costs to Expect. The App makes tracking 
+and forecasting expenses and costs simple as well as acting as a friendly 
+interface to the API.
+
 #### Costs to Expect Website
 
-Costs to Expect is a long-term project; my wife and I are tracking the expenses to raise our children to adulthood, 18.
+Costs to Expect is a long-term social project; my wife and I are tracking the 
+expenses to raise our children to adulthood, 18.
 
 #### Costs to Expect Web app
 
-Prototype for the iOS app, testing different designs, seeing which is the best fit for my wife.
+Prototype for the iOS Ppp and App, testing different designs, seeing which is 
+the best fit for my wife.
 
 ### Holiday Expenses
 
