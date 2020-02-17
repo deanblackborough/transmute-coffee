@@ -1,3 +1,7 @@
+html, body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 div.footer {
     border-top: 3px solid #6c757d;
     padding: 3rem 1rem;
