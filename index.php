@@ -39,14 +39,7 @@
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link"
-                   href="https://github.com/deanblackborough/zf3-view-helpers">ZF3 View Helpers</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="https://www.deanblackborough.com">Dean Blackborough.com</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.g3d-development.com">G3D Development</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://github.com/deanblackborough">GitHub</a>
@@ -136,8 +129,8 @@
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.02.0<br/>
-                            <strong>Release date:</strong> 13th February 2020
+                        <small><strong>Latest release:</strong> v1.03.0<br/>
+                            <strong>Release date:</strong> 16th February 2020
                         </small>
                     </div>
                 </div>
@@ -426,12 +419,15 @@
     <dl class="row">
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-api">Costs to Expect: The API</a></dt>
         <dd class="col-lg-4">
-            <p>The RESTful API for costs to expect, the iOS app and website will consume the data, costs to expect is
-                recording the expenses required to raise my child to the age of 18.</p>
+            <p>The RESTful API for Costs to Expect, an expenses tracking and forecasting service.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect">Costs to Expect: The Website</a></dt>
         <dd class="col-lg-4">
-            <p>The website for the Costs to Expect Web service.</p>
+            <p>A long-term social experiment, we are tracking the costs to raise humans.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-app">Costs to Expect: The App</a></dt>
+        <dd class="col-lg-4">
+            <p>Costs to Expect is a service that primarily focuses on providing tools for tracking and forecasting expenses.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
         <dd class="col-lg-4">
