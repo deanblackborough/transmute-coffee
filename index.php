@@ -87,8 +87,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.07.0<br/>
-                            <strong>Release date:</strong> 1st February 2020
+                        <small><strong>Latest release:</strong> v2.08.0<br/>
+                            <strong>Release date:</strong> 26th February 2020
                         </small>
                     </div>
                 </div>
@@ -110,8 +110,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.12.0<br/>
-                            <strong>Release date:</strong> 17th February 2020
+                        <small><strong>Latest release:</strong> v1.12.1<br/>
+                            <strong>Release date:</strong> 26th February 2020
                         </small>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                 <div class="card text-white bg-dark">
                     <div class="card-header">Project/Service</div>
                     <div class="card-body">
-                        <h4 class="card-title" id="costs-to-expect-app">Costs to Expect: The app</a></h4>
+                        <h4 class="card-title" id="costs-to-expect-app">Costs to Expect: The App</a></h4>
                         <p class="card-text">Costs to Expect is a service that primarily focuses on providing tools for
                             tracking and forecasting expenses.</p>
                         <p class="card-text">The app is the commercial part of the service, the alpha is in
@@ -130,8 +130,8 @@
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.03.0<br/>
-                            <strong>Release date:</strong> 16th February 2020
+                        <small><strong>Latest release:</strong> v1.03.1<br/>
+                            <strong>Release date:</strong> 22nd February 2020
                         </small>
                     </div>
                 </div>
