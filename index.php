@@ -87,8 +87,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.08.0<br/>
-                            <strong>Release date:</strong> 26th February 2020
+                        <small><strong>Latest release:</strong> v2.09.1<br/>
+                            <strong>Release date:</strong> 14th March 2020
                         </small>
                     </div>
                 </div>
@@ -110,8 +110,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.12.1<br/>
-                            <strong>Release date:</strong> 26th February 2020
+                        <small><strong>Latest release:</strong> v1.12.2<br/>
+                            <strong>Release date:</strong> 5th March 2020
                         </small>
                     </div>
                 </div>
@@ -130,8 +130,8 @@
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.03.1<br/>
-                            <strong>Release date:</strong> 22nd February 2020
+                        <small><strong>Latest release:</strong> v1.05.0<br/>
+                            <strong>Release date:</strong> 18th March 2020
                         </small>
                     </div>
                 </div>
@@ -213,7 +213,7 @@
                         <h4 class="card-title" id="Quick-start-for-a-PHP-MySQL-web-app">Quick start for a PHP/MySQL web
                             app </h4>
                         <p class="card-text">Bootstrap to help with the setup of a PHP/MySQL web app using Docker for
-                            local development, this app does not do anything other than echo phpinfo() it is
+                            local development, this app does not do anything other than echo phpinfo(); it is
                             simply a starting point for your development.</p>
                         <a href="https://github.com/deanblackborough/docker-compose-quick-start"
                            class="btn btn-outline-primary">GitHub</a>
