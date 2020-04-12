@@ -87,8 +87,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.09.4<br/>
-                            <strong>Release date:</strong> 25th March 2020
+                        <small><strong>Latest release:</strong> v2.10.1<br/>
+                            <strong>Release date:</strong> 3rd April 2020
                         </small>
                     </div>
                 </div>
@@ -110,8 +110,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.12.2<br/>
-                            <strong>Release date:</strong> 5th March 2020
+                        <small><strong>Latest release:</strong> v1.12.3<br/>
+                            <strong>Release date:</strong> 12th April 2020
                         </small>
                     </div>
                 </div>
@@ -130,8 +130,8 @@
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.08.1<br/>
-                            <strong>Release date:</strong> 29th March 2020
+                        <small><strong>Latest release:</strong> v1.10.1<br/>
+                            <strong>Release date:</strong> 12th April 2020
                         </small>
                     </div>
                 </div>
