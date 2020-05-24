@@ -1,6 +1,11 @@
 # Changelog
 
-Full changelog for the Transmute Coffee website.
+The full changelog for the "TransmuteCoffee" website.
+
+## v1.94.0 - New releases - 2020-05-24
+* New release, Costs to Expect App, v1.15.0
+* New release, Costs to Expect API, v2.10.4
+* New release, Costs to Expect Website, v1.12.4
 
 ## v1.93.0 - New releases - 2020-05-12
 * New release, Costs to Expect API, v2.10.3
