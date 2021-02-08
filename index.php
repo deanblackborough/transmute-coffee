@@ -124,8 +124,9 @@
                         <h4 class="card-title" id="costs-to-expect-app">Costs to Expect: The App</a></h4>
                         <p class="card-text">Costs to Expect is a service that primarily focuses on providing tools for
                             tracking and forecasting expenses.</p>
-                        <p class="card-text">The app is the commercial part of the service, the alpha is in
-                            development and we hope to have a public alpha ready by April 2020.</p>
+                        <p class="card-text">Our App is the commercial offering for Costs to Expect, we are working
+                            towards the public alpha, our aim is to make tracking and forecasting expenses as
+                            simple as possible.</p>
                         <a href="https://app.costs-to-expect.com" class="btn btn-outline-primary">App</a>
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
