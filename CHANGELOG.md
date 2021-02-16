@@ -2,6 +2,12 @@
 
 The full changelog for the "TransmuteCoffee" website.
 
+## v1.101.0 - New releases - 2021-02-08
+* New release, Costs to Expect App, v1.22.0
+* New release, Costs to Expect API, v2.20.0
+* New release, Costs to Expect Website, v1.13.2
+* New release, PHP Quill renderer, v4.00.0
+
 ## v1.100.0 - New releases - 2021-02-08
 * New release, Costs to Expect App, v1.21.2
 * New release, Costs to Expect API, v2.19.0

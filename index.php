@@ -87,8 +87,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.19.0<br/>
-                            <strong>Release date:</strong> 8th February 2021
+                        <small><strong>Latest release:</strong> v2.20.0<br/>
+                            <strong>Release date:</strong> 15th February 2021
                         </small>
                     </div>
                 </div>
@@ -110,8 +110,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.13.1<br/>
-                            <strong>Release date:</strong> 8th October 2020
+                        <small><strong>Latest release:</strong> v1.13.2<br/>
+                            <strong>Release date:</strong> 16th February 2021
                         </small>
                     </div>
                 </div>
@@ -131,8 +131,8 @@
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.21.2<br/>
-                            <strong>Release date:</strong> 27th January 2021
+                        <small><strong>Latest release:</strong> v1.22.0<br/>
+                            <strong>Release date:</strong> 16th February 2021
                         </small>
                     </div>
                 </div>
@@ -157,8 +157,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v3.18.1<br/>
-                            <strong>Release date:</strong> 10th December 2019
+                        <small><strong>Latest release:</strong> v4.00.0<br/>
+                            <strong>Release date:</strong> 16th February 2021
                         </small>
                     </div>
                 </div>
