@@ -57,16 +57,16 @@
         },
         {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v4.00.0",
+            "version": "v4.00.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "bcaa78799b3c29a41eeff1469c64018c37769349"
+                "reference": "82d008541bdb7ed1f8ffa2dc48d06f1468d9ca2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/bcaa78799b3c29a41eeff1469c64018c37769349",
-                "reference": "bcaa78799b3c29a41eeff1469c64018c37769349",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/82d008541bdb7ed1f8ffa2dc48d06f1468d9ca2c",
+                "reference": "82d008541bdb7ed1f8ffa2dc48d06f1468d9ca2c",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,7 @@
             ],
             "support": {
                 "issues": "https://github.com/deanblackborough/php-quill-renderer/issues",
-                "source": "https://github.com/deanblackborough/php-quill-renderer/tree/v4.00.0"
+                "source": "https://github.com/deanblackborough/php-quill-renderer/tree/v4.00.2"
             },
             "funding": [
                 {
@@ -118,7 +118,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-02-16T13:57:01+00:00"
+            "time": "2021-04-28T21:49:55+00:00"
         }
     ],
     "packages-dev": [],
