@@ -87,8 +87,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.21.0<br/>
-                            <strong>Release date:</strong> 29th April 2021
+                        <small><strong>Latest release:</strong> v2.25.0<br/>
+                            <strong>Release date:</strong> 20th June 2022
                         </small>
                     </div>
                 </div>
@@ -110,8 +110,8 @@
                             class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.13.2<br/>
-                            <strong>Release date:</strong> 16th February 2021
+                        <small><strong>Latest release:</strong> v2.00.0<br/>
+                            <strong>Release date:</strong> 22nd June 2022
                         </small>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
 
             <div class="card-deck mb-4">
                 <div class="card text-white bg-dark">
-                    <div class="card-header">Project/Service</div>
+                    <div class="card-header">Project/App</div>
                     <div class="card-body">
                         <h4 class="card-title" id="costs-to-expect-app">Costs to Expect: The App</a></h4>
                         <p class="card-text">Costs to Expect is a service that primarily focuses on providing tools for
@@ -131,8 +131,24 @@
                         <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.23.0<br/>
-                            <strong>Release date:</strong> 29th April 2021
+                        <small><strong>Latest release:</strong> v1.25.1<br/>
+                            <strong>Release date:</strong> 18th April 2022
+                        </small>
+                    </div>
+                </div>
+
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project/App</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="yahtzee">Yahtzee Game Scorer</a></h4>
+                        <p class="card-text">Game scoring for Yahtzee, powered by the Costs to Expect API</p>
+                        <p class="card-text">The Costs to Expect has been designed to handle multiple types of data, the
+                            game scoring apps are an example to show the Costs to Expect API isn't just for expenses.</p>
+                        <a href="https://github.com/costs-to-expect/yahtzee" class="btn btn-outline-secondary">Repo</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> In development<br/>
+                            <strong>Release date:</strong> In development
                         </small>
                     </div>
                 </div>
@@ -140,7 +156,7 @@
 
             <h2>Utility projects</h2>
 
-            <p>Small projects that I find useful across a range of apps and web sites.</p>
+            <p>Small projects that I find useful across a range of apps and websites.</p>
 
             <div class="card-deck mb-4">
                 <div class="card text-white bg-dark">
@@ -157,8 +173,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v4.00.2<br/>
-                            <strong>Release date:</strong> 28th April 2021
+                        <small><strong>Latest release:</strong> v4.01.0<br/>
+                            <strong>Release date:</strong> 15th December 2021
                         </small>
                     </div>
                 </div>
@@ -431,10 +447,9 @@
         <dd class="col-lg-4">
             <p>Costs to Expect is a service that primarily focuses on providing tools for tracking and forecasting expenses.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#dlayer-v3">Dlayer - v3</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#yahtzee">Yahtzee Game Scorer</a></dt>
         <dd class="col-lg-4">
-            <p>Dlayer is a collection of web tools, extension of the original Dlayer, this project is a rework of the
-                original Dlayer project.</p>
+            <p>Game scoring for Yahtzee, powered by the Costs to Expect API.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">

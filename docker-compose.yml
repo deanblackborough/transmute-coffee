@@ -1,11 +1,12 @@
 version: '3'
 services:
-  app:
-    build:
-      context: .
-      dockerfile: .docker/Dockerfile
-    image: transmute-coffee
-    ports:
-      - 80:80
-    volumes:
-      - .:/var/www/html
+    app:
+        build:
+            context: .
+            dockerfile: .docker/Dockerfile
+        image: transmute-coffee.app
+        container_name: transmute-coffee.app
+        ports:
+            - 80:80
+        volumes:
+            - .:/var/www/html

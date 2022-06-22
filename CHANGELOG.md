@@ -2,6 +2,11 @@
 
 The full changelog for the "TransmuteCoffee" website.
 
+## v1.103.0 - New releases - 2022-06-22
+* Updated everything to the latest release.
+* Updated the docker setup to PHP8.1
+* Added the Yahtzee project, in development.
+
 ## v1.102.0 - New releases - 2021-04-29
 * New release, Costs to Expect App, v1.23.0
 * New release, Costs to Expect API, v2.21.0

@@ -4,77 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae75ac9eda50ba26ee9567f5705a5e73",
+    "content-hash": "8f2517d82da076f06df9ae2602682a0c",
     "packages": [
         {
-            "name": "deanblackborough/laravel-view-helpers",
-            "version": "v1.00.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/deanblackborough/laravel-view-helpers.git",
-                "reference": "056bf1fe27800ecee3438735541dfc2e1d7fc023"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/laravel-view-helpers/zipball/056bf1fe27800ecee3438735541dfc2e1d7fc023",
-                "reference": "056bf1fe27800ecee3438735541dfc2e1d7fc023",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "DBlackborough\\ViewHelpers\\ViewHelpersServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "DBlackborough\\ViewHelpers\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dean Blackborough",
-                    "email": "dean@g3d-development.com"
-                }
-            ],
-            "description": "Collection of general and bootstrap specific view helpers for use in Laravel blade files",
-            "keywords": [
-                "blade view helpers",
-                "bootstrap",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/deanblackborough/laravel-view-helpers/issues",
-                "source": "https://github.com/deanblackborough/laravel-view-helpers/tree/master"
-            },
-            "time": "2019-07-30T10:35:06+00:00"
-        },
-        {
             "name": "deanblackborough/php-quill-renderer",
-            "version": "v4.00.2",
+            "version": "v4.01.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/php-quill-renderer.git",
-                "reference": "82d008541bdb7ed1f8ffa2dc48d06f1468d9ca2c"
+                "reference": "ccdcfea192542eee985c77f1255cb12f18e9343c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/82d008541bdb7ed1f8ffa2dc48d06f1468d9ca2c",
-                "reference": "82d008541bdb7ed1f8ffa2dc48d06f1468d9ca2c",
+                "url": "https://api.github.com/repos/deanblackborough/php-quill-renderer/zipball/ccdcfea192542eee985c77f1255cb12f18e9343c",
+                "reference": "ccdcfea192542eee985c77f1255cb12f18e9343c",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": "^7.4|^8"
+                "php": "^7.4|^8.0|^8.1"
             },
             "require-dev": {
-                "php-coveralls/php-coveralls": "^v2.4.3",
                 "phpunit/phpunit": "^9"
             },
             "suggest": {
@@ -110,7 +60,7 @@
             ],
             "support": {
                 "issues": "https://github.com/deanblackborough/php-quill-renderer/issues",
-                "source": "https://github.com/deanblackborough/php-quill-renderer/tree/v4.00.2"
+                "source": "https://github.com/deanblackborough/php-quill-renderer/tree/v4.01.0"
             },
             "funding": [
                 {
@@ -118,7 +68,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-28T21:49:55+00:00"
+            "time": "2021-12-15T13:30:00+00:00"
         }
     ],
     "packages-dev": [],
@@ -128,8 +78,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4|^8.0"
+        "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }
