@@ -2,6 +2,10 @@
 
 The full changelog for the "TransmuteCoffee" website.
 
+## v1.104.0 - New projects - 2022-08-22
+* Added new projects to the website.
+* Updated release dates and versions.
+
 ## v1.103.0 - New releases - 2022-06-22
 * Updated everything to the latest release.
 * Updated the docker setup to PHP8.1
