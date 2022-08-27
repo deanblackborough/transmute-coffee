@@ -196,21 +196,29 @@ echo $result;</pre>
         <dd class="col-lg-4">
             <p>The RESTful API for Costs to Expect, an expenses tracking and forecasting service.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect">Costs to Expect: The Website</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-budget">Costs to Expect: Budget</a></dt>
         <dd class="col-lg-4">
-            <p>A long-term social experiment, we are tracking the costs to raise humans.</p>
+            <p>A free open source budgeting tool.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-app">Costs to Expect: The App</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-expense">Costs to Expect: Expense</a></dt>
         <dd class="col-lg-4">
-            <p>Costs to Expect is a service that primarily focuses on providing tools for tracking and forecasting expenses.</p>
+            <p>A free open source expense tracking tool.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#yahtzee">Yahtzee Game Scorer</a></dt>
         <dd class="col-lg-4">
             <p>Game scoring for Yahtzee, powered by the Costs to Expect API.</p>
         </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#yatzy">Yatzy Game Scorer</a></dt>
+        <dd class="col-lg-4">
+            <p>Game scoring for Yatzy, powered by the Costs to Expect API.</p>
+        </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#prune-2d">Prune 2D Game engine</a></dt>
         <dd class="col-lg-4">
             <p>Prune2D may one day become a simple 2D game engine, for now it is a fun project.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#maths-quiz">Maths Quiz</a></dt>
+        <dd class="col-lg-4">
+            <p>Small Maths quiz app to generate questions for my 9 and 3-year-old.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">
@@ -231,7 +239,7 @@ echo $result;</pre>
                 allows usage of the view helpers in any PHP site, not just Zend Framework apps.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="#Quick-start-for-a-PHP-MySQL-web-app">Quick start for a PHP/MySQL web
-            app</a></dt>
+                app</a></dt>
         <dd class="col-lg-4">
             <p>Bootstrap to help with the setup of a PHP/MySQL web app using Docker for local development,
                 this app does not do anything other than echo phpinfo() it is simply a starting point for
@@ -259,7 +267,7 @@ echo $result;</pre>
                 is to add support for every component within Bootstrap 4 and work from there.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="#Zend-Framework-3-View-Helpers-Code-Completion">Zend Framework 3 View
-            Helpers Code Completion</a></dt>
+                Helpers Code Completion</a></dt>
         <dd class="col-lg-4">
             <p>Do you like using view helpers? If the answer is yes, you will have noticed there is no code
                 completion for them in your IDE, the classes in this package will solve that problem.</p>

@@ -98,7 +98,7 @@
                 <div class="card text-white bg-dark">
                     <div class="card-header">Project/Website</div>
                     <div class="card-body">
-                        <h4 class="card-title" id="costs-to-expect">Costs to Expect: Budget</a></h4>
+                        <h4 class="card-title" id="costs-to-expect-budget">Costs to Expect: Budget</a></h4>
                         <p class="card-text">A free open source budgeting tool.</p>
                         <p class="card-text">So simple to use your child could manage your budgeting,
                             we wouldn't suggest it, but they could.</p>
@@ -116,6 +116,24 @@
             </div>
 
             <div class="card-deck mb-4">
+                <!--Expense-->
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project/Website</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="costs-to-expect-expense">Costs to Expect: Expense</a></h4>
+                        <p class="card-text">A free open source expense tracking tool.</p>
+                        <p class="card-text">So simple to use your child could manage your expenses,
+                            we wouldn't suggest it, but they could.</p>
+                        <a href="#"
+                           class="btn btn-outline-primary">In Development</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> In Development<br/>
+                            <strong>Release date:</strong> In Development
+                        </small>
+                    </div>
+                </div>
+
                 <!--Yahtzee-->
                 <div class="card text-white bg-dark">
                     <div class="card-header">Project/App</div>
@@ -129,8 +147,29 @@
                            class="btn btn-outline-secondary">App</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.02.0<br/>
-                            <strong>Release date:</strong> 3rd August 2022
+                        <small><strong>Latest release:</strong> v1.06.0<br/>
+                            <strong>Release date:</strong> 27th August 2022
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck mb-4">
+                <!--Yatzy-->
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project/App</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="yatzy">Yatzy Game Scorer</a></h4>
+                        <p class="card-text">Game scoring for Yatzy, powered by the Costs to Expect API</p>
+                        <p class="card-text">The Costs to Expect has been designed to handle multiple types of data, the
+                            game scoring apps are an example to show the Costs to Expect API isn't just for expenses.</p>
+                        <a href="https://github.com/costs-to-expect/yatzy" class="btn btn-outline-primary">GitHub</a>
+                        <a href="https://yatzy.game-scorer.com"
+                           class="btn btn-outline-secondary">App</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> v1.00.0<br/>
+                            <strong>Release date:</strong> 27th August 2022
                         </small>
                     </div>
                 </div>
@@ -155,6 +194,22 @@
             </div>
 
             <div class="card-deck mb-4">
+                <!--Maths Quiz-->
+                <div class="card text-white bg-dark">
+                    <div class="card-header">Project/App</div>
+                    <div class="card-body">
+                        <h4 class="card-title" id="maths-quiz">Maths Quiz</a></h4>
+                        <p class="card-text">Small Maths quiz app to generate questions for my 9 and 3-year-old.</p>
+                        <p class="card-text">Very much a work in progress as I start playing around with C++.</p>
+                        <a href="https://github.com/deanblackborough/MathsQuiz" class="btn btn-outline-primary">GitHub</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <small><strong>Latest release:</strong> v0.02.0<br/>
+                            <strong>Release date:</strong> 5th December 2021
+                        </small>
+                    </div>
+                </div>
+
                 <!--Website-->
                 <div class="card text-white bg-dark">
                     <div class="card-header">Project/Website</div>
@@ -175,44 +230,6 @@
                     <div class="card-footer text-muted">
                         <small><strong>Latest release:</strong> v2.00.0<br/>
                             <strong>Release date:</strong> 22nd June 2022
-                        </small>
-                    </div>
-                </div>
-
-                <!--Expense-->
-                <div class="card text-white bg-dark">
-                    <div class="card-header">Project/App</div>
-                    <div class="card-body">
-                        <h4 class="card-title" id="costs-to-expect-app">Costs to Expect: The App</a></h4>
-                        <p class="card-text">Costs to Expect is a service that primarily focuses on providing tools for
-                            tracking and forecasting expenses.</p>
-                        <p class="card-text">Our App is the commercial offering for Costs to Expect, we are working
-                            towards the public alpha, our aim is to make tracking and forecasting expenses as
-                            simple as possible.</p>
-                        <a href="https://app.costs-to-expect.com" class="btn btn-outline-primary">App</a>
-                        <a href="https://app.costs-to-expect.com/changelog" class="btn btn-outline-secondary">Changelog</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.26.0<br/>
-                            <strong>Release date:</strong> 18th April 2022
-                        </small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-deck mb-4">
-                <!--Maths Quiz-->
-                <div class="card text-white bg-dark">
-                    <div class="card-header">Project/App</div>
-                    <div class="card-body">
-                        <h4 class="card-title" id="prune-2d">Maths Quiz</a></h4>
-                        <p class="card-text">Small Maths quiz app to generate questions for my 9 and 3-year-old.</p>
-                        <p class="card-text">Very much a work in progress as I start playing around with C++.</p>
-                        <a href="https://github.com/deanblackborough/MathsQuiz" class="btn btn-outline-primary">GitHub</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v0.02.0<br/>
-                            <strong>Release date:</strong> 5th December 2021
                         </small>
                     </div>
                 </div>
@@ -503,21 +520,29 @@
         <dd class="col-lg-4">
             <p>The RESTful API for Costs to Expect, an expenses tracking and forecasting service.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect">Costs to Expect: The Website</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-budget">Costs to Expect: Budget</a></dt>
         <dd class="col-lg-4">
-            <p>A long-term social experiment, we are tracking the costs to raise humans.</p>
+            <p>A free open source budgeting tool.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-app">Costs to Expect: The App</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-expense">Costs to Expect: Expense</a></dt>
         <dd class="col-lg-4">
-            <p>Costs to Expect is a service that primarily focuses on providing tools for tracking and forecasting expenses.</p>
+            <p>A free open source expense tracking tool.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#yahtzee">Yahtzee Game Scorer</a></dt>
         <dd class="col-lg-4">
             <p>Game scoring for Yahtzee, powered by the Costs to Expect API.</p>
         </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#yatzy">Yatzy Game Scorer</a></dt>
+        <dd class="col-lg-4">
+            <p>Game scoring for Yatzy, powered by the Costs to Expect API.</p>
+        </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#prune-2d">Prune 2D Game engine</a></dt>
         <dd class="col-lg-4">
             <p>Prune2D may one day become a simple 2D game engine, for now it is a fun project.</p>
+        </dd>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#maths-quiz">Maths Quiz</a></dt>
+        <dd class="col-lg-4">
+            <p>Small Maths quiz app to generate questions for my 9 and 3-year-old.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="php-quill-renderer.php">PHP Quill Renderer</a></dt>
         <dd class="col-lg-4">
