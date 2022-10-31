@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64736-9"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-64736-9');
-    </script>
     <meta charset="UTF-8">
     <title>Transmute Coffee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +10,7 @@
     <meta name="author" content="Dean Blackborough">
     <meta name="application-name" content="Transmute-coffee.com"/>
     <meta name="msapplication-TileColor" content="#FFFFFF"/>
-    <meta name="msapplication-starturl" content="http://www.transmute-coffee.com"/>
+    <meta name="msapplication-starturl" content="https://www.transmute-coffee.com"/>
     <meta name="msapplication-tooltip" content="Transmute Coffee.com"/>
     <link href="/node_modules/bootstrap/dist/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
     <link href="/css/site.css" media="screen" rel="stylesheet" type="text/css">
@@ -34,7 +26,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="https://www.costs-to-expect.com">Costs to Expect</a>
+                <a class="nav-link" href="https://api.costs-to-expect.com">Costs to Expect API</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://budget.costs-to-expect.com">Budget</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>
@@ -88,8 +83,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v3.02.0<br/>
-                            <strong>Release date:</strong> 4th June 2022
+                        <small><strong>Latest release:</strong> v3.06.1<br/>
+                            <strong>Release date:</strong> 31st October 2022
                         </small>
                     </div>
                 </div>
@@ -99,17 +94,16 @@
                     <div class="card-header">Project/Website</div>
                     <div class="card-body">
                         <h4 class="card-title" id="costs-to-expect-budget">Costs to Expect: Budget</a></h4>
-                        <p class="card-text">A free open source budgeting tool.</p>
-                        <p class="card-text">So simple to use your child could manage your budgeting,
-                            we wouldn't suggest it, but they could.</p>
+                        <p class="card-text">A budgeting tool so easy to use, it’s child play!</p>
+                        <p class="card-text">A free, open source budgeting tool powered by the Costs to Expect API.</p>
                         <a href="https://github.com/costs-to-expect/budget"
                            class="btn btn-outline-primary">GitHub</a>
                         <a href="https://budget.costs-to-expect.com"
                             class="btn btn-outline-secondary">App</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> In Development<br/>
-                            <strong>Release date:</strong> In Development
+                        <small><strong>Latest release:</strong> v1.00.0 (Beta)<br/>
+                            <strong>Release date:</strong> 31st October 2022
                         </small>
                     </div>
                 </div>
@@ -147,8 +141,8 @@
                            class="btn btn-outline-secondary">App</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.06.0<br/>
-                            <strong>Release date:</strong> 27th August 2022
+                        <small><strong>Latest release:</strong> v1.07.1<br/>
+                            <strong>Release date:</strong> 30th August 2022
                         </small>
                     </div>
                 </div>
@@ -168,8 +162,8 @@
                            class="btn btn-outline-secondary">App</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.00.0<br/>
-                            <strong>Release date:</strong> 27th August 2022
+                        <small><strong>Latest release:</strong> v1.01.1<br/>
+                            <strong>Release date:</strong> 30th August 2022
                         </small>
                     </div>
                 </div>
@@ -228,8 +222,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v2.00.0<br/>
-                            <strong>Release date:</strong> 22nd June 2022
+                        <small><strong>Latest release:</strong> v2.01.0<br/>
+                            <strong>Release date:</strong> 17th July 2022
                         </small>
                     </div>
                 </div>

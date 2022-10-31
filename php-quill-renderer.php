@@ -2,14 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64736-9"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-64736-9');
-    </script>
     <meta charset="UTF-8">
     <title>Transmute Coffee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +11,7 @@
     <meta name="author" content="Dean Blackborough">
     <meta name="application-name" content="Transmute-coffee.com"/>
     <meta name="msapplication-TileColor" content="#FFFFFF"/>
-    <meta name="msapplication-starturl" content="http://www.transmute-coffee.com"/>
+    <meta name="msapplication-starturl" content="https://www.transmute-coffee.com"/>
     <meta name="msapplication-tooltip" content="Transmute Coffee.com"/>
     <link href="/node_modules/bootstrap/dist/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
     <link href="/node_modules/quill/dist/quill.snow.css" media="screen" rel="stylesheet" type="text/css">
@@ -36,7 +28,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="https://www.costs-to-expect.com">Costs to Expect</a>
+                <a class="nav-link" href="https://api.costs-to-expect.com">Costs to Expect API</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://budget.costs-to-expect.com">Budget</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="php-quill-renderer.php">PHP Quill Renderer</a>

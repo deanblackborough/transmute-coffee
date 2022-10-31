@@ -2,6 +2,9 @@
 
 The full changelog for the "TransmuteCoffee" website.
 
+## v1.106.0 - New releases - 2022-10-31
+* Updated release dates and versions.
+
 ## v1.105.0 - New projects - 2022-08-27
 * Added new projects to the website.
 * Updated release dates and versions.
