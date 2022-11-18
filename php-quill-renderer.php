@@ -16,6 +16,15 @@
     <link href="/node_modules/bootstrap/dist/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
     <link href="/node_modules/quill/dist/quill.snow.css" media="screen" rel="stylesheet" type="text/css">
     <link href="/css/site.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EQSVTG76B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1EQSVTG76B');
+    </script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
