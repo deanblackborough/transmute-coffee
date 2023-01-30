@@ -202,11 +202,11 @@ echo $result;</pre>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-budget">Costs to Expect: Budget</a></dt>
         <dd class="col-lg-4">
-            <p>A free open source budgeting tool.</p>
+            <p>A free and open source budgeting tool.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-expense">Costs to Expect: Expense</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-budget-pro">Costs to Expect: Budget Pro</a></dt>
         <dd class="col-lg-4">
-            <p>A free open source expense tracking tool.</p>
+            <p>The upgraded version of Budget, a free open source budgeting tool powered by the Costs to Expect API.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#yahtzee">Yahtzee Game Scorer</a></dt>
         <dd class="col-lg-4">

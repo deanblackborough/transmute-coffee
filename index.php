@@ -92,8 +92,8 @@
                            class="btn btn-outline-secondary">Changelog</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v3.06.1<br/>
-                            <strong>Release date:</strong> 31st October 2022
+                        <small><strong>Latest release:</strong> v3.09.0<br/>
+                            <strong>Release date:</strong> 30th January 2023
                         </small>
                     </div>
                 </div>
@@ -111,8 +111,8 @@
                             class="btn btn-outline-secondary">App</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.00.0 (Beta)<br/>
-                            <strong>Release date:</strong> 31st October 2022
+                        <small><strong>Latest release:</strong> v1.08.0<br/>
+                            <strong>Release date:</strong> 30th January 2023
                         </small>
                     </div>
                 </div>
@@ -123,16 +123,16 @@
                 <div class="card text-white bg-dark">
                     <div class="card-header">Project/Website</div>
                     <div class="card-body">
-                        <h4 class="card-title" id="costs-to-expect-expense">Costs to Expect: Expense</a></h4>
+                        <h4 class="card-title" id="costs-to-expect-budget-pro">Costs to Expect: Budget Pro</a></h4>
                         <p class="card-text">A free open source expense tracking tool.</p>
                         <p class="card-text">So simple to use your child could manage your expenses,
                             we wouldn't suggest it, but they could.</p>
-                        <a href="#"
+                        <a href="https://budget-pro.costs-to-expect.com/"
                            class="btn btn-outline-primary">In Development</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> In Development<br/>
-                            <strong>Release date:</strong> In Development
+                        <small><strong>Latest release:</strong> v0.01<br/>
+                            <strong>Release date:</strong> 19th January 2023
                         </small>
                     </div>
                 </div>
@@ -150,8 +150,8 @@
                            class="btn btn-outline-secondary">App</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.07.1<br/>
-                            <strong>Release date:</strong> 30th August 2022
+                        <small><strong>Latest release:</strong> v1.08.0<br/>
+                            <strong>Release date:</strong> 30th January 2023
                         </small>
                     </div>
                 </div>
@@ -171,8 +171,8 @@
                            class="btn btn-outline-secondary">App</a>
                     </div>
                     <div class="card-footer text-muted">
-                        <small><strong>Latest release:</strong> v1.01.1<br/>
-                            <strong>Release date:</strong> 30th August 2022
+                        <small><strong>Latest release:</strong> v1.02.0<br/>
+                            <strong>Release date:</strong> 30th January 2023
                         </small>
                     </div>
                 </div>
@@ -525,11 +525,11 @@
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-budget">Costs to Expect: Budget</a></dt>
         <dd class="col-lg-4">
-            <p>A free open source budgeting tool.</p>
+            <p>A free and open source budgeting tool.</p>
         </dd>
-        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-expense">Costs to Expect: Expense</a></dt>
+        <dt class="col-lg-2 offset-lg-3"><a href="index.php#costs-to-expect-budget-pro">Costs to Expect: Budget Pro</a></dt>
         <dd class="col-lg-4">
-            <p>A free open source expense tracking tool.</p>
+            <p>The upgraded version of Budget, a free open source budgeting tool powered by the Costs to Expect API.</p>
         </dd>
         <dt class="col-lg-2 offset-lg-3"><a href="index.php#yahtzee">Yahtzee Game Scorer</a></dt>
         <dd class="col-lg-4">
