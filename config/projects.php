@@ -24,9 +24,10 @@ return [
         'name' => 'Costs to Expect API',
         'kind' => 'API',
         'status' => 'active',
-        'blurb' => 'The open source RESTful API behind Costs to Expect, a service for tracking and forecasting '
-            . 'expenses. Flexible enough to hold almost any kind of data, it drives the apps and the website, '
-            . 'and the Yahtzee and Yatzy game scorers too.',
+        'blurb' => 'A flexible open source REST API, the backbone of the Costs to Expect service. Designed to '
+            . 'track expenses, it has grown to track almost anything. Everything is configurable, from data types '
+            . 'and validation to limits, and it is built to be multilingual and to scale. It drives the apps, the '
+            . 'website and the Yahtzee and Yatzy game scorers.',
         'tags' => ['PHP', 'Laravel', 'REST'],
         'repo' => 'costs-to-expect/api',
         'links' => [
@@ -41,9 +42,10 @@ return [
         'name' => 'Budget',
         'kind' => 'App',
         'status' => 'active',
-        'blurb' => 'A budgeting tool so easy to use, it’s child’s play. Free, open source and powered by the '
-            . 'Costs to Expect API.',
-        'tags' => ['Laravel'],
+        'blurb' => 'A free, open source, planning-first budgeting app. Manage income, expenses and savings, '
+            . 'schedule items monthly or annually, and see your budget projection update instantly. Includes a '
+            . 'demo mode, seven currencies and is powered by the Costs to Expect API.',
+        'tags' => ['Laravel', 'Costs to Expect API'],
         'repo' => 'costs-to-expect/budget',
         'links' => [
             ['App', 'https://budget.costs-to-expect.com'],
@@ -57,9 +59,11 @@ return [
         'kind' => 'App',
         'status' => 'active',
         'commercial' => true,
-        'blurb' => 'The upgraded Budget. A powerful budgeting tool so simple your child could manage your '
-            . 'expenses (we wouldn’t suggest it, but they could).',
-        'tags' => ['Laravel'],
+        'blurb' => 'Plan your finances before they happen. A planning-first budgeting app for people who want '
+            . 'control before they spend, with multi-month forecasting, multiple budget scenarios, savings goals, '
+            . 'bulk editing and a full change history. £89.99 lifetime access with a 30-day free trial, no '
+            . 'subscription.',
+        'tags' => ['Laravel', 'Costs to Expect API'],
         'links' => [
             ['App', 'https://budget-pro.costs-to-expect.com/'],
         ],
@@ -72,7 +76,7 @@ return [
         'status' => 'active',
         'blurb' => 'A lightweight Laravel app for tracking cashflow against the Costs to Expect API, with '
             . 'percentage splitting, recurring expenses and reporting periods. Alpha.',
-        'tags' => ['Laravel', 'Tailwind'],
+        'tags' => ['Laravel', 'Costs to Expect API'],
         'repo' => 'costs-to-expect/cashflow',
         'links' => [
             ['GitHub', $cte . 'cashflow'],
@@ -86,7 +90,7 @@ return [
         'status' => 'active',
         'blurb' => 'How much does it cost to raise a child in the UK? A long-term project tracking what it '
             . 'costs to raise our children to adulthood, 18.',
-        'tags' => ['Laravel'],
+        'tags' => ['Laravel', 'Costs to Expect API'],
         'repo' => 'costs-to-expect/website',
         'links' => [
             ['Website', 'https://www.costs-to-expect.com'],
@@ -119,7 +123,7 @@ return [
         'status' => 'active',
         'blurb' => 'Game scoring for Yahtzee, powered by the Costs to Expect API. Proof the API isn’t just '
             . 'for expenses.',
-        'tags' => ['PHP'],
+        'tags' => ['Laravel', 'Costs to Expect API'],
         'repo' => 'costs-to-expect/yahtzee',
         'links' => [
             ['App', 'https://yahtzee.game-scorer.com'],
@@ -133,7 +137,7 @@ return [
         'kind' => 'App',
         'status' => 'active',
         'blurb' => 'Game scoring for Yatzy, also powered by the Costs to Expect API.',
-        'tags' => ['PHP'],
+        'tags' => ['Laravel', 'Costs to Expect API'],
         'repo' => 'costs-to-expect/yatzy',
         'links' => [
             ['App', 'https://yatzy.game-scorer.com'],
@@ -175,7 +179,7 @@ return [
         'status' => 'legacy',
         'blurb' => 'Small maths quiz app that generates random short division and long multiplication '
             . 'questions for the kids.',
-        'tags' => ['C++'],
+        'tags' => ['C++', 'Console'],
         'repo' => 'deanblackborough/MathsQuiz',
         'links' => [
             ['GitHub', $me . 'MathsQuiz'],
@@ -191,7 +195,7 @@ return [
         'status' => 'archived',
         'blurb' => 'Renders Quill insert deltas to HTML, Markdown and GitHub flavoured Markdown. '
             . '235k installs on Packagist. No longer maintained.',
-        'tags' => ['PHP', 'Composer'],
+        'tags' => ['PHP', 'Composer', 'QuillJS'],
         'repo' => 'deanblackborough/php-quill-renderer',
         'links' => [
             ['GitHub', $me . 'php-quill-renderer'],
@@ -269,7 +273,7 @@ return [
         'kind' => 'App',
         'status' => 'archived',
         'blurb' => 'Small app that talks to the Costs to Expect API to track holiday expenses.',
-        'tags' => ['PHP'],
+        'tags' => ['PHP', 'Costs to Expect API'],
         'repo' => 'deanblackborough/holiday-expenses',
         'links' => [
             ['GitHub', $me . 'holiday-expenses'],
@@ -282,7 +286,7 @@ return [
         'kind' => 'App',
         'status' => 'archived',
         'blurb' => 'The original web app for entering expenses into the Costs to Expect API.',
-        'tags' => ['PHP'],
+        'tags' => ['PHP', 'Costs to Expect API'],
         'repo' => 'deanblackborough/costs-to-expect-web-app',
         'links' => [
             ['GitHub', $me . 'costs-to-expect-web-app'],

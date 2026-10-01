@@ -28,8 +28,8 @@ $analytics = analytics_id();
 <?php endif ?>
     <meta name="author" content="<?= e($site['author']) ?>">
     <meta name="theme-color" content="#060913">
-    <link rel="icon" href="/favicon.ico" sizes="48x48">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <?php if ($canonical): ?>
     <meta property="og:type" content="website">

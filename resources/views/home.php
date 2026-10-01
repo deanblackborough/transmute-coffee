@@ -27,9 +27,11 @@ foreach ($groups as $group) {
     </nav>
 
     <div class="mx-auto max-w-6xl px-6 pb-28 pt-20 sm:pt-28 lg:pb-40 lg:pt-36">
-        <p class="font-mono text-xs uppercase tracking-[0.18em] text-gold-400 sm:tracking-[0.25em]">Software by <?= e($site['author']) ?></p>
+        <p class="font-mono text-xs uppercase tracking-[0.18em] text-gold-400 sm:tracking-[0.25em]">Projects and Software by <?= e($site['author']) ?></p>
         <h1 class="mt-6 font-display text-6xl leading-[0.95] tracking-tight text-moon-50 sm:text-7xl lg:text-8xl">Transmute<br><span class="italic text-gold-300">Coffee</span></h1>
-        <p class="mt-8 max-w-xl text-balance text-lg leading-relaxed sm:text-xl">Open source PHP libraries, Laravel apps, games and half-finished experiments, led by the Costs to Expect API and Prune, a live 2D editor. Anything that costs money is tagged Commercial.</p>
+        <p class="mt-8 max-w-xl text-balance text-lg leading-relaxed sm:text-xl">Open source PHP libraries, Laravel apps, games and half-finished experiments, led by the Costs to Expect API and Prune, a live 2D editor.</p>
+        <p class="mt-8 max-w-xl text-balance text-lg leading-relaxed sm:text-xl">This is only a glimpse of the last 30 years, it is the stuff I support and work on and some interesting legacy stuff.</p>
+        <p class="mt-8 max-w-xl text-balance text-lg leading-relaxed sm:text-xl">Anything that costs money is tagged Commercial.</p>
         <div class="mt-10 flex flex-wrap items-center gap-3">
             <a href="#projects" class="inline-flex items-center gap-2 rounded-full bg-gold-400 px-6 py-3 font-semibold text-night-950 transition hover:bg-gold-300">Browse the projects</a>
             <a href="<?= e($site['blog']) ?>" class="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 font-medium text-moon-50 transition hover:border-gold-400/60 hover:text-gold-300">Read the blog <?= icon('arrow') ?></a>
