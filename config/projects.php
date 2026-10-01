@@ -33,6 +33,7 @@ return [
         'links' => [
             ['API', 'https://api.costs-to-expect.com'],
             ['GitHub', $cte . 'api'],
+            ['Docs', 'https://api.costs-to-expect.com/docs/Overview.html'],
             ['Changelog', $cte . 'api/blob/master/CHANGELOG.md'],
         ],
     ],
@@ -114,6 +115,8 @@ return [
         'repo' => 'deanblackborough/Prune',
         'links' => [
             ['GitHub', $me . 'Prune'],
+            ['Releases', $me . 'Prune/releases'],
+            ['Issues', $me . 'Prune/issues'],
         ],
     ],
     [
@@ -207,7 +210,7 @@ return [
     ],
     [
         'slug' => 'laravel-view-helpers',
-        'section' => 'libraries',
+        'section' => 'archive',
         'name' => 'Laravel View Helpers',
         'kind' => 'Library',
         'status' => 'legacy',
@@ -223,7 +226,7 @@ return [
     ],
     [
         'slug' => 'bootstrap-4-helpers',
-        'section' => 'libraries',
+        'section' => 'archive',
         'name' => 'Bootstrap 4 Helpers',
         'kind' => 'Library',
         'status' => 'legacy',
@@ -238,7 +241,7 @@ return [
     ],
     [
         'slug' => 'docker-quick-start',
-        'section' => 'libraries',
+        'section' => 'archive',
         'name' => 'PHP/MySQL Docker Quick Start',
         'kind' => 'Starter',
         'status' => 'legacy',
@@ -253,7 +256,7 @@ return [
     ],
     [
         'slug' => 'random-grab-bag',
-        'section' => 'libraries',
+        'section' => 'archive',
         'name' => 'Random Grab Bag',
         'kind' => 'Library',
         'status' => 'legacy',
