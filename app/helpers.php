@@ -47,6 +47,26 @@ function format_date(string $iso): string
     return (new DateTimeImmutable($iso))->format('j M Y');
 }
 
+/** "Mar 2019", for start dates where the day means nothing. */
+function format_month(string $iso): string
+{
+    return (new DateTimeImmutable($iso))->format('M Y');
+}
+
+/**
+ * When a project started, for the sections that show it (the archive doesn't). A "started" date on the
+ * project wins, otherwise it is the GitHub repo creation date, which is wrong for anything that began
+ * life elsewhere or has no repo.
+ */
+function project_started(array $p): ?string
+{
+    if (!(config('sections')[$p['section']]['show_started'] ?? false)) {
+        return null;
+    }
+
+    return $p['started'] ?? $p['stats']['created'] ?? null;
+}
+
 /** Google Analytics is skipped on local hosts so development doesn't pollute the numbers. */
 function analytics_id(): ?string
 {

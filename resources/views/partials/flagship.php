@@ -10,6 +10,10 @@ $stats = $p['stats'] ?? [];
 
 $facts = ['Built with' => implode(', ', $p['tags'])];
 
+if (($started = project_started($p)) !== null) {
+    $facts['Started'] = format_month($started);
+}
+
 if (!empty($stats['version'])) {
     $facts['Latest release'] = $stats['version'];
 

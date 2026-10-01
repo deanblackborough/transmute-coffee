@@ -5,7 +5,7 @@ declare(strict_types=1);
 
 /**
  * Refreshes data/releases.json from the public GitHub API: the latest release, stars, licence and
- * last push for every project in config/projects.php that has a "repo". The site reads that file,
+ * last push and creation date for every project in config/projects.php that has a "repo". The site reads that file,
  * so the cards never need their versions editing by hand.
  *
  *   php bin/releases
@@ -99,6 +99,7 @@ foreach ($repos as $repo) {
         'stars' => $found['stargazers_count'],
         'license' => $license !== 'NOASSERTION' ? $license : null,
         'archived' => $found['archived'],
+        'created' => substr($found['created_at'], 0, 10),
         'pushed' => substr($found['pushed_at'], 0, 10),
     ], static fn ($value): bool => $value !== null);
 

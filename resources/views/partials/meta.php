@@ -5,7 +5,11 @@
  * @var array $p
  */
 $stats = $p['stats'] ?? [];
+$started = project_started($p);
 ?>
+<?php if ($started !== null): ?>
+<span>Started <?= e(format_month($started)) ?></span>
+<?php endif ?>
 <?php if (!empty($stats['version'])): ?>
 <span><?= e($stats['version']) ?><?php if (!empty($stats['released'])): ?><span class="text-moon-400/60"> / </span><?= e(format_date($stats['released'])) ?><?php endif ?></span>
 <?php elseif (!empty($stats['pushed'])): ?>
