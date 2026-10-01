@@ -1,4 +1,9 @@
-FROM php:8.1-apache
+FROM php:8.4-apache
+
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
+RUN apt-get update
+RUN apt-get install -y git zip unzip
 
 COPY . /var/www/html
 COPY .docker/vhost.conf /etc/apache2/sites-available/000-default.conf
