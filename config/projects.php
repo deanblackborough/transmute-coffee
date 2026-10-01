@@ -56,6 +56,7 @@ return [
         'slug' => 'costs-to-expect-budget-pro',
         'section' => 'costs-to-expect',
         'name' => 'Budget Pro',
+        'started' => '2023-05',
         'kind' => 'App',
         'status' => 'active',
         'commercial' => true,
