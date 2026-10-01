@@ -1,0 +1,62 @@
+/* Compiled by bin/css with the standalone Tailwind CLI, only the views are scanned. */
+@import 'tailwindcss' source(none);
+
+@source '../views';
+/* icon() in app/helpers.php carries the default icon size class */
+@source '../../app';
+
+@theme {
+    /* The one web font, loaded from Google Fonts in layout.php. Body and mono text use the system stacks. */
+    --font-display: 'Fraunces', ui-serif, Georgia, serif;
+
+    /* Night sky */
+    --color-night-950: #060913;
+    --color-night-900: #0a0f1f;
+    --color-night-800: #10172e;
+    --color-night-700: #1b2450;
+
+    /* Moonlight, moon-200 body text, moon-400 muted text */
+    --color-moon-50: #f6f2e9;
+    --color-moon-200: #d3d6e3;
+    --color-moon-400: #9aa3bd;
+
+    /* The one accent */
+    --color-gold-300: #f6d28a;
+    --color-gold-400: #f2b84b;
+}
+
+@layer base {
+    html {
+        color-scheme: dark;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        html {
+            scroll-behavior: smooth;
+        }
+    }
+
+    body {
+        background: var(--color-night-950);
+        color: var(--color-moon-200);
+        -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection {
+        background: rgb(242 184 75 / 0.35);
+        color: #fff;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-gold-400);
+        outline-offset: 3px;
+    }
+}
+
+@layer components {
+    /* Static SVG, no viewBox, so the stars stretch to the header but stay round */
+    .starfield {
+        background-image: url('/img/stars.svg');
+        background-size: 100% 100%;
+    }
+}

@@ -1,0 +1,115 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Refreshes data/releases.json from the public GitHub API: the latest release, stars, licence and
+ * last push for every project in config/projects.php that has a "repo". The site reads that file,
+ * so the cards never need their versions editing by hand.
+ *
+ *   php bin/releases
+ *
+ * Unauthenticated GitHub allows 60 requests an hour and this makes about 30, so set GITHUB_TOKEN
+ * if you run it more often than that. Nothing is written if a request fails, the old file stays.
+ */
+
+$root = dirname(__DIR__);
+$projects = require $root . '/config/projects.php';
+
+$repos = [];
+foreach ($projects as $project) {
+    if (isset($project['repo'])) {
+        $repos[] = $project['repo'];
+    }
+}
+$repos = array_values(array_unique($repos));
+
+function github(string $path): array
+{
+    $headers = ['User-Agent: transmute-coffee', 'Accept: application/vnd.github+json'];
+
+    if (($token = getenv('GITHUB_TOKEN')) !== false && $token !== '') {
+        $headers[] = 'Authorization: Bearer ' . $token;
+    }
+
+    $body = @file_get_contents('https://api.github.com' . $path, false, stream_context_create([
+        'http' => ['header' => implode("\r\n", $headers), 'ignore_errors' => true, 'timeout' => 20],
+    ]));
+
+    $status = 0;
+    foreach ($http_response_header ?? [] as $line) {
+        if (preg_match('#^HTTP/\S+ (\d{3})#', $line, $match) === 1) {
+            $status = (int) $match[1];
+        }
+    }
+
+    if ($status === 403 || $status === 429) {
+        fwrite(STDERR, "GitHub rate limit hit on {$path}. Set GITHUB_TOKEN or try again in a while.\n");
+        exit(1);
+    }
+
+    return [$status, $status === 200 ? json_decode((string) $body, true) : null];
+}
+
+// Stars, licence and activity: one listing per owner covers every repo they have
+$info = [];
+foreach (array_unique(array_map(static fn (string $repo): string => explode('/', $repo)[0], $repos)) as $owner) {
+    for ($page = 1; ; $page++) {
+        [$status, $list] = github("/users/{$owner}/repos?per_page=100&page={$page}");
+
+        if ($status !== 200 || !is_array($list)) {
+            fwrite(STDERR, "Could not list the repos for {$owner} (HTTP {$status}).\n");
+            exit(1);
+        }
+
+        foreach ($list as $repo) {
+            $info[strtolower($repo['full_name'])] = $repo;
+        }
+
+        if (count($list) < 100) {
+            break;
+        }
+    }
+}
+
+$stats = [];
+foreach ($repos as $repo) {
+    $found = $info[strtolower($repo)] ?? null;
+
+    if ($found === null) {
+        fwrite(STDERR, "Warning: {$repo} was not found on GitHub, skipping.\n");
+
+        continue;
+    }
+
+    // 404 just means the repo has no releases
+    [$status, $release] = github("/repos/{$repo}/releases/latest");
+
+    if ($status !== 200 && $status !== 404) {
+        fwrite(STDERR, "Could not read the latest release for {$repo} (HTTP {$status}).\n");
+        exit(1);
+    }
+
+    $license = $found['license']['spdx_id'] ?? null;
+
+    $stats[$repo] = array_filter([
+        'version' => $release['tag_name'] ?? null,
+        'released' => isset($release['published_at']) ? substr($release['published_at'], 0, 10) : null,
+        'stars' => $found['stargazers_count'],
+        'license' => $license !== 'NOASSERTION' ? $license : null,
+        'archived' => $found['archived'],
+        'pushed' => substr($found['pushed_at'], 0, 10),
+    ], static fn ($value): bool => $value !== null);
+
+    echo str_pad($repo, 50), ' ', $stats[$repo]['version'] ?? '-', "\n";
+}
+
+ksort($stats);
+
+file_put_contents($root . '/data/releases.json', json_encode(
+    ['generated' => gmdate('c'), 'repos' => $stats],
+    JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR,
+) . "\n");
+
+echo 'Wrote data/releases.json (' . count($stats) . " repos)\n";

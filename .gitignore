@@ -1,3 +1,5 @@
 .idea/
 /vendor/
-/node_modules/
+
+# Tailwind standalone CLI binary, platform specific, downloaded by bin/css not committed
+/bin/tailwindcss-*

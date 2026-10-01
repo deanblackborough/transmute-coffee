@@ -1,62 +1,71 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/deanblackborough/transmute-coffee/blob/master/LICENSE)
-[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.1-8892BF.svg)](https://php.net/)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%5E8.4-8892BF.svg)](https://php.net/)
 
 # Transmute Coffee
 
-The transmute coffee website, this site gives an overview of each of my Open Source libraries as well as my short and
-long term development projects.
+The [transmute-coffee.com](https://transmute-coffee.com) website, an index of my projects: the Costs to Expect API,
+Prune, my apps, games and experiments, and my Open Source libraries.
 
-## Libraries
+Plain PHP, no framework and no Composer packages. Styled with Tailwind CSS using the standalone CLI, no Node.
 
-* PHP Quill Renderer - Render quill insert deltas to HTML and Markdown.
-* Random grab bag. - Utility classes that don't have a home.
-* Bootstrap 4 helpers - Helpers to create Bootstrap 4 components.
+## Local development
 
-## Quick start
+```bash
+docker compose up -d
+```
 
-* Docker quick start for a PHP/MySQL web app - Bootstrap to help with the setup of a PHP/MySQL web app using Docker for local 
-development, this app does not do anything other than echo phpinfo() it is simply a starting point for your development.
+The site is then at http://transmute-coffee.local (the vhost serves `public/`). Changing `.docker/vhost.conf`
+needs `docker compose up -d --build`.
 
-## Zend framework libraries
+## CSS
 
-* Zend View helpers. - Collection of ZF view helpers
-* Zend view helpers code completion. - IDE code completion for my view helpers
+Tailwind is compiled with the standalone CLI, `bin/css` downloads the right binary for your machine on first run.
+The source is `resources/css/app.css`, the output is committed so a deploy doesn't need to build anything.
 
-## Projects
+```bash
+bin/css            # build
+bin/css --watch    # rebuild as you edit
+```
 
-### Costs to Expect
+The output goes to `public/css/{version}/app.css`. Bump `css` in `config/app/version.php` when the CSS changes so
+nobody is served a stale cached copy.
 
-Costs to Expect is a service focused on tracking and forecasting expenses. 
+## Adding a project
 
-#### Costs to Expect API
+Add an entry to `config/projects.php`, the comment at the top of the file explains each key. Sections are in
+`config/sections.php`. Set `'commercial' => true` for anything that costs money and `'featured' => true` to show a
+project large under "Major projects".
 
-The open RESTful API for the Costs to Expect service.
+Versions, stars and licences are not written by hand, they come from GitHub:
 
-#### Costs to Expect App
+```bash
+php bin/releases
+```
 
-The App is the commercial offering of Costs to Expect. The App makes tracking 
-and forecasting expenses and costs simple as well as acting as a friendly 
-interface to the API.
+This rewrites `data/releases.json`, commit it. It makes about 30 requests and the unauthenticated GitHub limit is
+60 an hour, set `GITHUB_TOKEN` if you run it more often.
 
-#### Costs to Expect Website
+## Deployment
 
-Costs to Expect is a long-term social project; my wife and I are tracking the 
-expenses to raise our children to adulthood, 18.
+Deployed with Laravel Forge. Set the site's web directory to `/public`, nothing else in the repository should be
+reachable. The deploy script only needs to pull, there is nothing to install or build.
 
-#### Costs to Expect Web app
+The nginx config needs the standard PHP site `try_files $uri $uri/ /index.php?$query_string;` so unknown URLs reach
+the front controller and get a real 404.
 
-Prototype for the iOS Ppp and App, testing different designs, seeing which is 
-the best fit for my wife.
+`public/php-quill-renderer.php` is the old demo page, it 301s to the GitHub repository because Packagist and old
+links still point to it.
 
-### Holiday Expenses
+## Layout
 
-Small app to interact with my Costs to Expect API to track holiday expenses.
+| Path | |
+| --- | --- |
+| `public/` | Web root: `index.php` front controller, built CSS, images, favicons, `robots.txt`, `sitemap.xml` |
+| `config/` | Site settings, sections and the projects |
+| `resources/views/` | Templates, `resources/css/app.css` is the Tailwind source |
+| `app/` | A few helpers and the structured data (JSON-LD) builder |
+| `data/releases.json` | Written by `bin/releases` |
 
-### Dlayer
+## Licence
 
-* Dlayer vNext - Migration project to ZF3.
-* Dlayer - Responsive web development.
-
-### General
-
-* View helpers - Custom view helpers for the Dlayer project
+MIT, see [LICENSE](LICENSE).

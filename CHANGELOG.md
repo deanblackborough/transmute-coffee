@@ -2,6 +2,17 @@
 
 The full changelog for the "TransmuteCoffee" website.
 
+## v2.0.0 - Redesign - 2026-10-01
+* New design, a dark night sky look that matches the blog, with the Costs to Expect API and Prune as the major projects.
+* Styled with Tailwind CSS 4.3.3 using the standalone CLI (`bin/css`), Bootstrap, jQuery, Popper and Node are gone.
+* The site is served from `public/`, nothing else in the repository is web accessible any more.
+* Removed the PHP Quill Renderer demo page and the Composer dependency, `/php-quill-renderer.php` now 301s to the GitHub repository.
+* Projects are now defined in `config/projects.php`, versions, stars and licences come from GitHub via `bin/releases`.
+* Yahtzee and Yatzy moved to Games & experiments, added a Commercial tag for apps that cost money (Budget Pro).
+* Added Cashflow, Prune, Godot Platformer and GameMaker Platformer, fixed the Costs to Expect Data Collector link.
+* SEO: title and description, canonical URL, Open Graph and Twitter cards, JSON-LD, `robots.txt`, `sitemap.xml`, favicons and a real 404.
+* Legacy `#anchors` from the old page still work.
+
 ## v1.108.0 - New releases - 2023-06-14
 * Updated release dates and versions.
 

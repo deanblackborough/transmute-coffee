@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Transmute Coffee - design ideas</title>
+<style>
+  :root { --ink:#1d1a16; --soft:#5b5348; --bg:#f4f1ea; --card:#fff; --rule:#e2dccf; --accent:#9a3f0c; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; -webkit-font-smoothing:antialiased; }
+  main { max-width: 1180px; margin: 0 auto; padding: 56px 24px 72px; }
+  h1 { font-size: clamp(2rem,4vw,3rem); line-height:1.05; margin:0 0 12px; letter-spacing:-.02em; }
+  .lede { max-width: 62ch; color:var(--soft); margin:0 0 40px; }
+  .grid { display:grid; gap:24px; grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); }
+  .card { background:var(--card); border:1px solid var(--rule); border-radius:20px; overflow:hidden; display:flex; flex-direction:column; }
+  .preview { position:relative; aspect-ratio: 16/11; overflow:hidden; background:#ddd; display:block; border-bottom:1px solid var(--rule); }
+  .preview iframe { position:absolute; inset:0 auto auto 0; width:1280px; height:880px; border:0; transform-origin:0 0; pointer-events:none; }
+  .body { padding:22px 22px 24px; display:flex; flex-direction:column; gap:10px; flex:1; }
+  .tag { font:500 .72rem/1 ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.16em; text-transform:uppercase; color:var(--soft); }
+  h2 { margin:0; font-size:1.5rem; letter-spacing:-.01em; }
+  p { margin:0; }
+  .soft { color:var(--soft); font-size:.95rem; }
+  dl { margin:6px 0 0; display:grid; gap:8px; font-size:.92rem; }
+  dt { font-weight:600; }
+  dd { margin:0; color:var(--soft); }
+  a.open { margin-top:auto; align-self:flex-start; padding:.6rem 1.1rem; border-radius:999px; background:var(--ink); color:#fff; text-decoration:none; font-weight:600; font-size:.92rem; }
+  a.open:hover { background:var(--accent); }
+  .note { margin-top:36px; font-size:.9rem; color:var(--soft); border-top:1px solid var(--rule); padding-top:20px; }
+  code { background:#0001; padding:.1em .35em; border-radius:6px; font-size:.9em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Three directions for Transmute Coffee</h1>
+  <p class="lede">Same real content in each: 24 projects, versions and star counts pulled from GitHub on 1 Oct 2026. Open each one full-size and try it on your phone too. All three are built with the standalone Tailwind CLI (v4.3.3), no Node, no JavaScript framework.</p>
+
+  <div class="grid">
+    <article class="card">
+      <a class="preview" href="a-observatory.html" aria-label="Open concept A"><iframe src="a-observatory.html" loading="lazy" tabindex="-1" title="Preview of concept A"></iframe></a>
+      <div class="body">
+        <span class="tag">Concept A</span>
+        <h2>Observatory</h2>
+        <p class="soft">Dark and atmospheric. A moonlit hero (pure CSS/SVG, zero image weight) that picks up the moon already on your blog, gold accents and a serif display face.</p>
+        <dl>
+          <div><dt>Best at</dt><dd>Personality and memorability. Feels like a place, not a list.</dd></div>
+          <div><dt>Trade-off</dt><dd>Hero takes a full screen before any projects. Cards get long as the list grows.</dd></div>
+        </dl>
+        <a class="open" href="a-observatory.html">Open full page</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="preview" href="b-catalogue.html" aria-label="Open concept B"><iframe src="b-catalogue.html" loading="lazy" tabindex="-1" title="Preview of concept B"></iframe></a>
+      <div class="body">
+        <span class="tag">Concept B</span>
+        <h2>Catalogue</h2>
+        <p class="soft">Warm paper, editorial type, one row per project. A filter bar (the only JavaScript, and it degrades to "show everything") keeps 24 projects, or 60, easy to scan.</p>
+        <dl>
+          <div><dt>Best at</dt><dd>Scannability and scale. Adding a project is one more row. Lightest CSS (17 KB).</dd></div>
+          <div><dt>Trade-off</dt><dd>Calmest and least flashy. No imagery, so the personality is all typography.</dd></div>
+        </dl>
+        <a class="open" href="b-catalogue.html">Open full page</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <a class="preview" href="c-bento.html" aria-label="Open concept C"><iframe src="c-bento.html" loading="lazy" tabindex="-1" title="Preview of concept C"></iframe></a>
+      <div class="body">
+        <span class="tag">Concept C</span>
+        <h2>Bento</h2>
+        <p class="soft">A modern tile grid. Colour codes the families (purple for Costs to Expect, teal for games, blue for libraries) and tile size shows what matters most.</p>
+        <dl>
+          <div><dt>Best at</dt><dd>Hierarchy at a glance, and giving big projects room to breathe (Prune's editor vignette, Quill's 235k installs).</dd></div>
+          <div><dt>Trade-off</dt><dd>Every tile is a design decision. Smaller projects collapse into list tiles.</dd></div>
+        </dl>
+        <a class="open" href="c-bento.html">Open full page</a>
+      </div>
+    </article>
+  </div>
+
+  <p class="note">These are throwaway mockups for review, not the real site. Delete the whole <code>design-ideas/</code> folder whenever you like.</p>
+</main>
+<script>
+  // Scale each 1280px-wide preview to its card width.
+  const fit = () => document.querySelectorAll('.preview').forEach(p => {
+    p.querySelector('iframe').style.transform = 'scale(' + (p.clientWidth / 1280) + ')';
+  });
+  addEventListener('resize', fit); addEventListener('load', fit); fit();
+</script>
+</body>
+</html>

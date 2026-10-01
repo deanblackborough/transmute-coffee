@@ -1,7 +1,7 @@
 {
     "name": "deanblackborough/transmute-coffee",
     "description": "Website for my projects and Open Source libraries",
-    "homepage": "https://www.transmute-coffee.com",
+    "homepage": "https://transmute-coffee.com",
     "authors": [
         {
             "name": "Dean Blackborough",
@@ -9,11 +9,7 @@
         }
     ],
     "require": {
-        "php": "^8.4",
-        "deanblackborough/php-quill-renderer": "^4"
-    },
-    "require-dev": {
-
+        "php": "^8.4"
     },
     "license": "MIT"
 }

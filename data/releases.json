@@ -1,0 +1,177 @@
+{
+    "generated": "2026-10-01T14:04:11+00:00",
+    "repos": {
+        "costs-to-expect/api": {
+            "version": "v3.22.2",
+            "released": "2026-09-30",
+            "stars": 9,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2026-09-30"
+        },
+        "costs-to-expect/budget": {
+            "version": "v1.15.0",
+            "released": "2026-09-13",
+            "stars": 1,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2026-09-13"
+        },
+        "costs-to-expect/cashflow": {
+            "stars": 0,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2026-09-26"
+        },
+        "costs-to-expect/website": {
+            "version": "v2.02.0",
+            "released": "2023-07-04",
+            "stars": 2,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2026-09-26"
+        },
+        "costs-to-expect/yahtzee": {
+            "version": "v1.12.0",
+            "released": "2026-09-13",
+            "stars": 2,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2026-09-13"
+        },
+        "costs-to-expect/yatzy": {
+            "version": "v1.05.0",
+            "released": "2026-09-13",
+            "stars": 2,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2026-09-13"
+        },
+        "deanblackborough/MathsQuiz": {
+            "stars": 2,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2021-12-06"
+        },
+        "deanblackborough/Prune": {
+            "stars": 3,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2026-09-09"
+        },
+        "deanblackborough/Prune2D": {
+            "version": "v0.8.0",
+            "released": "2022-06-01",
+            "stars": 2,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2022-06-01"
+        },
+        "deanblackborough/bootstrap-4-helpers": {
+            "version": "v0.04",
+            "released": "2018-01-21",
+            "stars": 1,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2018-01-21"
+        },
+        "deanblackborough/costs-to-expect-web-app": {
+            "stars": 0,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2019-12-17"
+        },
+        "deanblackborough/docker-compose-quick-start": {
+            "version": "v0.01",
+            "released": "2018-04-22",
+            "stars": 0,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2019-07-12"
+        },
+        "deanblackborough/gm-platformer": {
+            "version": "v0.11.0",
+            "released": "2025-01-11",
+            "stars": 5,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2025-07-31"
+        },
+        "deanblackborough/godot-platformer": {
+            "stars": 7,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2025-08-30"
+        },
+        "deanblackborough/holiday-expenses": {
+            "version": "v1.00.0",
+            "released": "2018-11-15",
+            "stars": 0,
+            "license": "MIT",
+            "archived": true,
+            "pushed": "2018-11-27"
+        },
+        "deanblackborough/laravel-view-helpers": {
+            "version": "v1.00.3",
+            "released": "2019-07-30",
+            "stars": 1,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2019-07-30"
+        },
+        "deanblackborough/php-quill-renderer": {
+            "version": "v4.01.0",
+            "released": "2021-12-15",
+            "stars": 116,
+            "license": "MIT",
+            "archived": true,
+            "pushed": "2022-11-06"
+        },
+        "deanblackborough/random-grab-bag": {
+            "version": "v0.07",
+            "released": "2017-12-10",
+            "stars": 1,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2018-01-02"
+        },
+        "deanblackborough/zf3-view-helpers": {
+            "version": "v1.02.2",
+            "released": "2018-05-15",
+            "stars": 9,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2018-05-15"
+        },
+        "deanblackborough/zf3-view-helpers-code-completion": {
+            "version": "v1.07.0",
+            "released": "2018-01-20",
+            "stars": 3,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2018-01-20"
+        },
+        "dlayer/dlayer": {
+            "version": "v1.17",
+            "released": "2017-09-13",
+            "stars": 3,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2018-03-11"
+        },
+        "dlayer/responsive-web-development": {
+            "stars": 1,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2018-01-15"
+        },
+        "dlayer/view-helpers": {
+            "version": "v1.00.0",
+            "released": "2017-10-18",
+            "stars": 0,
+            "license": "MIT",
+            "archived": false,
+            "pushed": "2017-10-18"
+        }
+    }
+}

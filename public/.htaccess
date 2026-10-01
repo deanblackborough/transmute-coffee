@@ -1,0 +1,4 @@
+# Local Docker (Apache) only. Production is nginx on Forge, where try_files does the same job.
+# Anything that isn't a real file goes to the front controller, which returns the real 404.
+DirectoryIndex index.php
+FallbackResource /index.php
